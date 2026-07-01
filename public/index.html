@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesis 3x3 - Inversiones Inteligentes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons for premium look -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="main-header">
+      <div class="logo">
+        <i data-lucide="trending-up" class="logo-icon"></i>
+        <h1>Inversiones<span>3x3</span></h1>
+      </div>
+      <div class="api-key-container">
+        <label for="apiKey">Gemini API Key:</label>
+        <div class="input-wrapper">
+          <i data-lucide="key" class="input-icon"></i>
+          <input type="password" id="apiKey" placeholder="AIzaSy..." autocomplete="off">
+          <button id="toggleApiKey" title="Mostrar/Ocultar"><i data-lucide="eye"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Grid Layout -->
+    <main class="main-content">
+      <!-- Sidebar (Inputs & History) -->
+      <aside class="sidebar">
+        <div class="card search-card">
+          <h2><i data-lucide="search"></i> Nuevo Análisis</h2>
+          <form id="thesisForm">
+            <div class="form-group">
+              <label for="ticker">Ticker de la Acción:</label>
+              <div class="ticker-input-wrapper">
+                <input type="text" id="ticker" placeholder="ej. AAPL, MELI, TSLA" required autocomplete="off">
+                <span class="ticker-badge">US</span>
+              </div>
+              <small class="form-help">Ingresa el ticker que cotiza en bolsa de EE.UU.</small>
+            </div>
+            <div class="form-group">
+              <label for="modelSelect">Modelo de IA:</label>
+              <select id="modelSelect" class="model-select">
+                <option value="gemini-2.5-flash">Gemini 2.5 Flash (Recomendado)</option>
+                <option value="gemini-3.5-flash">Gemini 3.5 Flash</option>
+                <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
+                <option value="gemini-2.5-pro">Gemini 2.5 Pro</option>
+              </select>
+              <small class="form-help">Si un modelo falla por cuota, prueba otro.</small>
+            </div>
+            <button type="submit" id="submitBtn" class="btn btn-primary btn-block">
+              <span>Generar Tesis 3x3</span>
+              <i data-lucide="sparkles"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="card history-card">
+          <h2><i data-lucide="history"></i> Tesis Guardadas</h2>
+          <div id="historyList" class="history-list">
+            <div class="loading-history">Cargando tesis pasadas...</div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Dashboard Output -->
+      <section class="dashboard">
+        <!-- Empty State -->
+        <div id="emptyState" class="dashboard-state empty-state">
+          <div class="glowing-circle">
+            <i data-lucide="activity" class="glowing-icon"></i>
+          </div>
+          <h2>Listo para Analizar</h2>
+          <p>Ingresa un ticker a la izquierda para generar una tesis de inversión de nivel profesional libre de sesgos.</p>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loadingState" class="dashboard-state loading-state hidden">
+          <div class="spinner-container">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+          </div>
+          <h2>Generando Tesis 3x3...</h2>
+          <p id="loadingMessage">Buscando datos de mercado en Yahoo Finance...</p>
+          
+          <div class="progress-steps">
+            <div class="step active" id="step-yf"><i data-lucide="check-circle-2"></i> Datos de Mercado</div>
+            <div class="step" id="step-search"><i data-lucide="circle"></i> Búsqueda Lado B</div>
+            <div class="step" id="step-llm"><i data-lucide="circle"></i> Redacción de Tesis</div>
+            <div class="step" id="step-rr"><i data-lucide="circle"></i> Relación Riesgo:Retorno</div>
+          </div>
+        </div>
+
+        <!-- Error State -->
+        <div id="errorState" class="dashboard-state error-state hidden">
+          <div class="error-icon">
+            <i data-lucide="alert-triangle"></i>
+          </div>
+          <h2>Error de Conexión</h2>
+          <p id="errorMessage" class="error-text">El modelo está experimentando alta demanda.</p>
+          
+          <div class="retry-container">
+            <p id="retryCountdown" class="countdown-text">Reintentando automáticamente en 20s...</p>
+            <button id="retryBtn" class="btn btn-secondary mt-4">
+              <i data-lucide="refresh-cw"></i>
+              <span>Reintentar Ahora</span>
+            </button>
+            <button id="cancelRetryBtn" class="btn btn-ghost mt-4">Cancelar</button>
+          </div>
+        </div>
+
+        <!-- Results Dashboard -->
+        <div id="resultsDashboard" class="results-dashboard hidden">
+          <!-- Top summary panel -->
+          <div class="result-header card">
+            <div class="company-info">
+              <div class="ticker-circle" id="resTicker">AAPL</div>
+              <div>
+                <h2 id="resCompanyName">Apple Inc.</h2>
+                <div class="price-tags">
+                  <span class="price-tag">Precio Actual: <strong id="resCurrentPrice">$180.00</strong></span>
+                  <span class="path-tag"><i data-lucide="file-text"></i> <span id="resSavedPath">AAPL.md</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="verdict-container">
+              <span class="verdict-label">Veredicto R:R</span>
+              <div class="verdict-badge" id="resVerdictBadge">APROBADO</div>
+            </div>
+          </div>
+
+          <!-- Central Thesis -->
+          <div class="central-thesis-card card">
+            <i data-lucide="quote" class="quote-icon"></i>
+            <p id="resCentralThesis">Compramos Apple por su fuerte ecosistema y crecimiento en servicios, con un catalizador claro en el lanzamiento de sus herramientas de Inteligencia Artificial.</p>
+          </div>
+
+          <!-- The 3x3 Grid Layout -->
+          <div class="thesis-3x3-grid">
+            <!-- 3 Reasons In Favor -->
+            <div class="thesis-column col-favor card">
+              <div class="column-header">
+                <i data-lucide="trending-up" class="icon-favor"></i>
+                <h3>3 Razones a Favor</h3>
+              </div>
+              <div class="column-content" id="resFavorList">
+                <!-- Javascript will populate -->
+              </div>
+            </div>
+
+            <!-- 2 Reasons Against -->
+            <div class="thesis-column col-against card">
+              <div class="column-header">
+                <i data-lucide="trending-down" class="icon-against"></i>
+                <h3>2 Razones en Contra</h3>
+              </div>
+              <div class="column-content" id="resAgainstList">
+                <!-- Javascript will populate -->
+              </div>
+            </div>
+
+            <!-- 1 Kill Switch -->
+            <div class="thesis-column col-kill card">
+              <div class="column-header">
+                <i data-lucide="shield-alert" class="icon-kill"></i>
+                <h3>1 Evento de Invalidación</h3>
+              </div>
+              <div class="column-content">
+                <div class="kill-item metric-kill">
+                  <div class="kill-badge">Métrica</div>
+                  <p id="resKillMetric">Si el margen operativo cae por debajo del 25%.</p>
+                </div>
+                <div class="kill-item context-kill">
+                  <div class="kill-badge">Contexto</div>
+                  <p id="resKillContext">Si la regulación de la App Store obliga a Apple a permitir tiendas alternativas sin comisión.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom calculations and metrics -->
+          <div class="bottom-analytics">
+            <!-- Checklist Card -->
+            <div class="card checklist-card">
+              <h3><i data-lucide="check-square"></i> Checklist de Validación</h3>
+              <ul class="checklist">
+                <li id="chk-favor"><i data-lucide="check"></i> 3 Razones a favor definidas</li>
+                <li id="chk-against"><i data-lucide="check"></i> 2 Razones en contra definidas</li>
+                <li id="chk-kill"><i data-lucide="check"></i> Evento de invalidación mixto definido</li>
+                <li id="chk-rr"><i data-lucide="check"></i> Relación Riesgo:Retorno ≥ 1:2</li>
+              </ul>
+            </div>
+
+            <!-- Risk:Reward Card -->
+            <div class="card rr-card">
+              <h3><i data-lucide="calculator"></i> Relación Riesgo:Retorno</h3>
+              <div class="rr-visual-container">
+                <div class="rr-values">
+                  <div class="rr-val stop">
+                    <span>Invalidación (Stop)</span>
+                    <strong id="resStopPrice">$160.00</strong>
+                  </div>
+                  <div class="rr-val current">
+                    <span>Precio Entrada</span>
+                    <strong id="resEntryPrice">$180.00</strong>
+                  </div>
+                  <div class="rr-val target">
+                    <span>Objetivo (Target)</span>
+                    <strong id="resTargetPrice">$230.00</strong>
+                  </div>
+                </div>
+                <!-- Visual slider gauge -->
+                <div class="rr-gauge">
+                  <div class="gauge-bar">
+                    <div class="gauge-invalidation-zone" style="width: 30%"></div>
+                    <div class="gauge-target-zone" style="width: 70%"></div>
+                    <div class="gauge-marker current-marker" style="left: 30%"></div>
+                  </div>
+                  <div class="gauge-labels">
+                    <span>Zona de Pérdida</span>
+                    <span>Zona de Beneficio</span>
+                  </div>
+                </div>
+              </div>
+              <div class="rr-ratio-summary">
+                <div class="ratio-circle">
+                  <span class="ratio-label">R:R Ratio</span>
+                  <span class="ratio-val" id="resRrRatio">1:2.5</span>
+                </div>
+                <div class="ratio-text">
+                  <p id="resRrDescription">El beneficio potencial de esta operación ($50.00) es 2.5 veces mayor que el riesgo asumido ($20.00).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Citations / Sources -->
+          <div class="card citations-card" id="resCitationsCard">
+            <h3><i data-lucide="link"></i> Fuentes y Citas Consultadas</h3>
+            <div class="citations-grid" id="resCitationsList">
+              <!-- Javascript will populate -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

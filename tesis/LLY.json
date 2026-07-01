@@ -1,0 +1,118 @@
+{
+  "companyName": "Eli Lilly and Company",
+  "centralThesis": "Eli Lilly ofrece una inversión sólida impulsada por el dominio de sus innovadores fármacos GLP-1 para obesidad y diabetes, expansión de capacidad y un robusto pipeline.",
+  "reasonsInFavor": [
+    {
+      "title": "Liderazgo en el Mercado GLP-1 y Crecimiento Explosivo",
+      "description": "Eli Lilly está capitalizando la creciente demanda de sus medicamentos GLP-1, Mounjaro y Zepbound, que están impulsando un crecimiento masivo de ingresos. En el primer trimestre de 2024, Mounjaro generó más de $1.8 mil millones y Zepbound superó los $517 millones, con la compañía aumentando su guía de ingresos para todo el año 2024 en $2 mil millones.. Zepbound fue aprobado para la apnea obstructiva del sueño en adultos con obesidad y se proyecta que Mounjaro lidere el mercado GLP-1, que se espera alcance los $190 mil millones para 2035."
+    },
+    {
+      "title": "Pipeline Robusto y Diversificación Estratégica",
+      "description": "La compañía cuenta con un pipeline diversificado que incluye 36 ensayos de fase III en áreas clave como obesidad, oncología, inmunología y neurociencia. Recientes aprobaciones, como Kisunla para la enfermedad de Alzheimer temprana y Ebglyss para la dermatitis atópica, junto con la nueva indicación de Zepbound para la apnea obstructiva del sueño, demuestran la capacidad de Lilly para expandir su cartera más allá de los GLP-1. Además, el desarrollo de medicamentos de próxima generación como retatrutide, un agonista triple de GLP-1, GIP y glucagón, ha mostrado resultados prometedores en ensayos de fase 3 para la pérdida de peso."
+    },
+    {
+      "title": "Sólidos Márgenes Operativos y Elevada Guía de Ingresos",
+      "description": "Eli Lilly ha demostrado una fuerte rentabilidad con un margen operativo del 49.39%. La empresa reportó un aumento del 26% en los ingresos del primer trimestre de 2024 y un incremento del 67% en el ingreso neto, impulsado por el volumen de ventas y los precios más altos de sus medicamentos principales. La guía de ingresos para el año completo 2024 se elevó a un rango de $42.4 mil millones a $43.6 mil millones, reflejando la confianza de la administración en el crecimiento sostenido y la expansión de la capacidad de fabricación."
+    }
+  ],
+  "reasonsAgainst": [
+    {
+      "title": "Competencia Intensa y Presiones de Precios en GLP-1",
+      "description": "A pesar del liderazgo de Lilly, el mercado de GLP-1 es altamente competitivo, con Novo Nordisk como un fuerte rival con Ozempic y Wegovy, que se espera capture una parte significativa del mercado. La introducción de nuevos medicamentos GLP-1 orales por parte de competidores y el potencial de que Novo Nordisk supere a Lilly en las ventas totales de GLP-1 para 2029 representan un riesgo. Además, existen preocupaciones sobre posibles presiones de precios para el tirzepatide y los desafíos de reembolso en el panorama de la obesidad, así como problemas de suministro que pueden limitar el acceso de los pacientes."
+    },
+    {
+      "title": "Expiración de Patentes y Riesgos Regulatorios/Legales",
+      "description": "Eli Lilly enfrenta la expiración de patentes para medicamentos importantes como Trulicity en 2027 y Cyramza en 2026, lo que podría conducir a la competencia de genéricos y afectar los flujos de ingresos. Además, la industria farmacéutica está bajo escrutinio regulatorio, con esfuerzos gubernamentales para reducir los costos de los medicamentos y posibles desafíos a la validez de las patentes. Lilly también ha estado involucrada en litigios contra empresas de telemedicina por la venta de versiones compuestas de Mounjaro y Zepbound, lo que subraya los riesgos legales y regulatorios continuos."
+    }
+  ],
+  "killSwitch": {
+    "metricComponent": "El margen operativo cae por debajo del 40% durante dos trimestres consecutivos o la relación Deuda/Capital excede 160%.",
+    "contextComponent": "Si la FDA rechaza un medicamento clave en fase 3 del pipeline de GLP-1 (por ejemplo, retatrutide) o si un competidor lanza un medicamento GLP-1 significativamente superior en eficacia y seguridad que erosiona la cuota de mercado de Mounjaro/Zepbound más allá de las expectativas actuales, o si una falla importante en la expansión de la capacidad de fabricación provoca escasez prolongada de productos clave."
+  },
+  "suggestedTargetPrice": 1265.5,
+  "suggestedInvalidationPrice": 1166.4,
+  "citations": [
+    {
+      "title": "biospace.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAGTVU4_ya08jS99FPFpPcb9FI644jsbVH9RzwTfZO4FPN_D02YP-tCxbCYe-O95cqYiNmfS-m5iZY_QWRpfaYx7VRRsICK2WbMkA9uOp_u-h7FbcwmJcQfUxtJBA_Hngv8_7j1FtKeIT_zvLzQxDgZij2fctxyysT498zqz6q0OTEuINqJIyDyZONiljydFiA_u_lAvA_SFhja43CNygbkXZXv5sv7kMcpxrYslFEzpqF7ZgT"
+    },
+    {
+      "title": "prnewswire.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF88W7M4HcDZy4URU4dOhxNtKQy0ThgjnOgfU8D_vakc3yT5ZOBNaOn9_dknnAFl38Yx8xCO0GWNlg1EctaCAYGQ-CQd0TSDBU67PRWn_UCwGWCMnfvI2EUM7zf6Vm_1-3Dw8FU5Qq6uMkajZxJkd25ouvFwXIBOjdsDFkwJ2Xs2SVsolajSk7L-rG6Z5n3wkzGAcBay8JLu9EE_rXUYpxjMZhlwPKLR0KWJOkC4-UTkaINDFAYHPxvXU-p_4KCtMdlEugImfscB5RAn2Y4LIYGg_c0R6gxrSByStYzZ4JQ2Elpc1-Ym4HVd1jnP5293D5BV2GAGjU="
+    },
+    {
+      "title": "indianpharmapost.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLos1Uob40tYBK2sUOl3-onCvay8YKvtDoBXx8IkDhPRTejevCIsVuIKh8zRFSNRFful0jE1u8of79gVnyLIhoXM7HmVM9RbWVvfn1w6cFEe2sB3GxbuNf1YqBFCBdDt2jr125RvapKE91yAFubKeB1ECS-H89BdpixpGztJnHoMleEHycEQQ8x_1pRifw7pNXg7xtehC8aTOx"
+    },
+    {
+      "title": "pharmaceutical-technology.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC-jfoli-5iz4hFybjz5PTTOSn4UgVXu_lBz5XlKkpphAEAxoVUFqnLZFWbw9G9k18UX8H44t4aWg9nb_EZkg8WE_NC8elyXfl2QwHbvlCxPX2js1HB-M3ZAZZMR_SInuCRZoh-aDZk3NBuKz4EPjezP_A7o3gjvn8I9b2Lz06oZ0v"
+    },
+    {
+      "title": "ctfassets.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhLkLvkjCDICry7XxhXw3lEW-gkplY56yNNKDqisQO-oRdOz6Qn9iUVPVdQcjUhXnM9vY0DyBvvQEFExpMlzJ0dwJmz7tE5kixG7IL_tyvWnqk4X1T4bz367N6ZNnQ8UkEkhzs9Euf2Vi040Fefqlp2yINocVCLUNXzL1urVlqF6OZoovEwcsKpxHgEhV8vbvJz_uyJ6vl0c45V1B-pQd0TnEj9wgnOd3frP3S3hnC4XV7TZcAHhn5Qm2sTvXW2Q=="
+    },
+    {
+      "title": "lilly.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH12s5Sru4RtN1hfci_7S5YhUKJZ8pAKoITNCWskBOhCsnf6zU7uXgxNRv98So47k-mb-7DyIxiTrGh2lb6OTi9IfIyZGo69T0uesapddKGyvmGpYuBUZuNEExQbbuTTe5YkR67"
+    },
+    {
+      "title": "businessinsider.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFljbDJBYf35AG3p5kQSLC-oKbU7TL1IgivfM2y6x8aVJzl7devsBmT9jqFkEUZ7_ypFpzxHHN1LV-7rJbF9itHUiU8H_dycmbTQnRMcfUMSOayXE_C17cXj8djUs9Il2uCNSDf6_I6TYDlGG49d4FdFPYqbKPq8cPy-JsGv832aA26TaeI4zONy5kmlsjM23h-ice92Ml_DMGk173vSvigS6pqBmcDnnvkvF5_"
+    },
+    {
+      "title": "fiercepharma.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz1vg1S3nRo9bbIpBwuzGbzsl4oZKd64j3gOy40clBmrizN_dczlRD_2Wz_zjWDcjc1S_YfJoBh3Z1GKoo5MtO_2z_1wptY0raUpGPp4wMxdOyRw0YuHomUEyDG2rpa07qqDySLeEKzN-oB-CmEpiFgMvEUvA4AWD0ptAMSiPpezIzDHyYKOarZhSd26LZ5t3C0K10eKuvGvbgp9GP6QacUg=="
+    },
+    {
+      "title": "tigermedgrp.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaKgUWjmXKQa3HlDSchUtVsCRo4IazLDZTemHIt_GNO4eivCd2-Eb--DekZMTfkIzGHSTfzemcS8SbQu3sIsNrwzesnuhRkOUwjHgcQ4kqUV_nIiXgq-6pjHj_ZRX00cudyy3_w4ZEc07VPVRWmXNgEJCgncWWzMVTk_hOyC00Th1H"
+    },
+    {
+      "title": "fool.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGgi8dXOD-kW1pF1_l7y2sUQnkVp8xO4TCyVqcFqvm_xfHrQwEWIDmFOg3Zk63JTNTCl5bVDrNYQjqxysAvUxAUircZG0gxsUQBmDPMgRZDPgIEV_LwN2qvJdul3AzgG8E0YE8wiRo8qAyaXMC9ProldHM9SLdsYjPVIumRaqBcq48nuTV_TYpJmL6l00UmSUKIZhxjQxgeg=="
+    },
+    {
+      "title": "finviz.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4wTs7U_UvPIuuNpLhcAbLrE-p3WXmobj3lUJsVJduvy_6jhjHWVFTq2ydYwTPcYwaVIEXags-uAlpQ2FShmb4xf7GC4sXz3gmlI2Mz96TIWmPdesIs9pcz_otSt-v_ERBLis8DEpeQE--Dq6mNj8Ex1p7byMsHn6qA00mthRxY474lvqWS_umqs7sixlvbOO06mTAlDqsexxmhl2sqIn--9QFM838C6x7M-kFZ5srgnXQzhQaDa8p"
+    },
+    {
+      "title": "lilly.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9tS6Z1YhR-A-bqOQ5o8o8TlAavd7G8ql7Meg_N6JjXFiRMu02XALWIz_uUzb7nKDwBklptKBJsMLDTVH9mUsxrTH4N-IS8KgGwxMti_JpCWojscvqvWXDg_8xu_Ckw0mqdd9WuwwRCy4PpK-Vu3-NNYpNy2x3"
+    },
+    {
+      "title": "biospace.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYq0nwSiKMOthS6b32zF8h1LXsqOuxJdzScDz8QcQ_idWFbCBTbyFMe2iwNhnLbL6p7XE8uy5NmReHg7dD33yfDiZm_LNODIkYIprtZOJsdSCpU2Wtc4mnDjxkrz47Oa7BLMe2lxJLeKmuwG6Ua_TCaazDy5s_nhOXzhOBFxknMcqLbe6dBOjdMOEQLfiE76wDCtrCXVbP0uavb4jmVyhAhNeQfm0xTJDQtcCPTlSscXZ2z36uXxjtiDSwsN2fqeXM"
+    },
+    {
+      "title": "public.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVX23h9BpaA9C-OZMyzJy7RZyOBOOBrz-0jRUuecaZL-COFushGaRdmfHMHmUKvP-CKn34fQaCDpU-vhVmO6H0B3rPmKtqUHMBWC5ZxPUoqxLCpSgUtCxMXF10gJX8EIec_Q0elnowP8mBT0xO_g=="
+    },
+    {
+      "title": "mavenbio.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG323QuJph-ha10GRFgM2XoEc4tkvvMKPA811lO_fpfv9tEEpukr3QWi9TksdS9r6nLaCH8eGbEvdRGjANaaap5hA8M_1w5Pnk-dJaVjGGhA11eLldsLFrBf07rCjS2Js7ee30fG9AOZz6Yij45CAoJYHuaY0Ow5teimOVLCA=="
+    },
+    {
+      "title": "proclinical.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZth8T9Nxy2vzSQIDtvUcdpq6rn2N0JMJ4AHyrpftQCF_q8uQbWqTWxrgh6e2Qp09xmyKeKLfEtVr2Ehxec32UVAV3tqdagjL1SlbQhsQNCSF36gzzMKUIV3KTYkd2uMG41OiDX9X38bi21_tL3TEXn48UX8LiJf3GRwY623zLZl0XRWcqcGxJG1t5cuL0PrGQOZyYYNZ0NWht3rCsCgM="
+    },
+    {
+      "title": "healthcaredive.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWhv6Tfm4AhuBCd5h_UuDliEns5I5W-0-LrSpiz_QDqPsoZlJ8IAJ-FlHmiPYetYedVF_oG9enrOTLF9eBzYxNYQkCapNtiXJqCRqE6owOR93jEQTA5SMbsl6FSmV6NSIhmrC3ZonfViPeAMcTSzOW8hl7s7fFEHSaAY91xeR34yjMLnHQBBslf6eqOjasg3XsgN4MEC3ts8xZ"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPVSYUWJp96KSCKqmgACZCGnErEFA_qUZCdSRrQlLRqG_h_dkXyDTI_qSM4TICHr9i6d5SWNYakQrLJXk-SXBnYV0FjawgaQ44LX6NdK_GLG3pWS-ymOjYw0daVAm9IJz3SOHS6Uo="
+    },
+    {
+      "title": "kirkland.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbCt9lO7p0bEAV-6mYg7JbeAddwHwS3GWmkfHfw5aR8H6NpZbNF0fn2Ew5wP_Pv1IZuQyCfUa2Z5Qq6eWQP4lEbeYGnSlo0JybVFbAlQLoaTxZV8S6-9YAk4UBZeyPjiGoefoCoQHWjfkdPn15j6Qb8WWfSEU36bxWPuZk1MD8L-C7UFzEz-oovFDCji0NOdo2C1pZkSixmcBgTBlRXwELw7GVqO9hfnQXvcs3"
+    }
+  ],
+  "currentPrice": 1199.43,
+  "riskRewardRatio": 2.000302755071147,
+  "rrVerdict": "APROBADO (R:R ≥ 1:2)",
+  "ticker": "LLY",
+  "savedPath": "C:\\git\\inversiones\\tesis\\LLY.md",
+  "filename": "LLY.md"
+}

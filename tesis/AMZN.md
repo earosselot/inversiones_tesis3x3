@@ -1,0 +1,51 @@
+# Tesis de Inversión 3x3: AMZN (Amazon.com, Inc.)
+**Fecha de Generación:** 1 de julio de 2026, 02:26
+
+> **Tesis Central:** Amazon, con su fortaleza en la nube (AWS) y expansión en publicidad, es una compra atractiva ahora debido a su crecimiento impulsado por IA y la diversificación de ingresos.
+
+## 🟢 3 Razones a Favor (¿Por qué sube?)
+### 1. Crecimiento Continuo de AWS e Impulso de IA
+Amazon Web Services (AWS) registró su mayor crecimiento trimestral en más de tres años, alcanzando un 28% de aumento interanual en el primer trimestre de 2026. Este crecimiento está impulsado por nuevas capacidades en centros de datos y significativas alianzas con compañías líderes en IA como Anthropic y OpenAI, que se han comprometido a invertir más de $100 mil millones en servicios de AWS en los próximos años, disipando preocupaciones sobre la ralentización del crecimiento en la nube y la falta de un producto exitoso de IA de consumo.
+
+### 2. Fuerte Expansión en Publicidad Digital
+El segmento de publicidad de Amazon está mostrando un crecimiento robusto, capitalizando el acceso a vastos datos de consumidores y el alto tráfico en sus plataformas. Este segmento ofrece una fuente de ingresos de alto margen, contribuyendo significativamente a la rentabilidad general de la compañía.
+
+### 3. Dominio en Comercio Electrónico y Ecosistema Diversificado
+Amazon mantiene una posición dominante en el mercado de comercio electrónico en Estados Unidos y se beneficia de un ecosistema diversificado que incluye su programa de membresía Prime con alta retención de clientes. Además, la compañía está expandiendo estratégicamente su negocio de comestibles, incluyendo la entrega de perecederos y la expansión de Whole Foods, buscando consolidar su posición en múltiples frentes del retail.
+
+## 🔴 2 Razones en Contra (¿Qué puede salir mal?)
+### 1. Intenso Escrutinio Regulatorio y Antimonopolio
+Amazon enfrenta un escrutinio regulatorio creciente, incluyendo demandas por parte de la Comisión Federal de Comercio (FTC) de EE.UU. y la Fiscalía de California. Las acusaciones se centran en prácticas anticompetitivas, como la manipulación de precios a través de contratos con minoristas y el abuso de su posición dominante para sofocar la competencia, lo que podría derivar en multas sustanciales o la fragmentación de sus unidades de negocio.
+
+### 2. Elevado Gasto de Capital y Presión en Flujo de Caja
+Amazon ha iniciado un ciclo de inversión masivo, proyectando un gasto de capital (CapEx) de aproximadamente $200 mil millones para 2026, principalmente dirigido a infraestructura de IA y centros de datos. Este ambicioso plan de inversión podría presionar el flujo de caja libre a corto plazo y generar dudas sobre la capacidad de AWS para mantener sus márgenes, dado que el gasto de capital está creciendo más rápido que los ingresos.
+
+## ⚠️ 1 Evento de Invalidación (El Kill Switch)
+* **Métricas Financieras:** El margen operativo de Amazon cae por debajo del 10% de forma sostenida durante dos trimestres consecutivos.
+* **Contexto Empresarial:** Si se fragmenta o escinde forzosamente alguna de sus principales unidades de negocio (e.g., AWS o retail) debido a acciones regulatorias antimonopolio.
+
+## 📊 Métricas de Operación & Checklist
+| Parámetro | Valor |
+| :--- | :--- |
+| Precio de Entrada (Actual) | $238.34 |
+| Objetivo de Ganancia (Target) | $312.99 |
+| Nivel de Invalidación (Stop) | $201.02 |
+| Relación Riesgo:Retorno (R:R) | 1:2.00 |
+| **Veredicto R:R (Mín. 1:2)** | **APROBADO (R:R ≥ 1:2)** |
+
+### ✅ Checklist de Validación: **OPERACIÓN APTA**
+La operación cumple con la relación de riesgo/retorno mínima de 1:2 y se han completado los casilleros correspondientes del 3x3.
+
+## 🔗 Fuentes y Citas Consultadas
+- [yahoo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHduYeNlcgU-B6dvWszQzzyWED-xR36KoiZ0n65OlmpHdjeXozqWIJ_ZUL0gdyBd5e4MXYF17UPzgR-zOMkr7Kg5sKAyxvvpYR6EYjLy4BPNux4bLwad3RE37nbem5CHFAdhVtt3Xkp6MqAxEQNKO2oQry0dI0e1eXejV4iIt_Ax1MfUonJt8tKkL_tzn7U7Fzzpyua5gP4gOf4fFRlNh8Jzi_9)
+- [tikr.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyqjiIEkUGFYS4YkhCy0wapRnR2BdL0Pc7OO6WaQbVyX6gUjo_Q7lxsHjxRtQJltMpO1EplSBHHcj6XnFOmbCzkb6NmgaJKYhSkmt1nlMaZrPfDn_0VjDqhCQxlH1tbnxOX-72bXsKswr4JTO6eXXjHp988BoAtIRfxVbNxYJ5IMSkm8jWnbnTzs4AgvU=)
+- [bloomberglinea.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5z-g_cL5vJUMnwnc-BxOIPhWz27byxXnRlXvNJePPq_z5Je7Ug7pRESJmvT3F6UYI7GMz_8bYgWHwkYXTmhVAUDa5oI89kgQwiuF3_aoxftZRw8rSEWna-mWrECsPVSczjIXVEGj23jGktAhM2i0LkfvKFFs6PnirpVQLBdBVHE74CPAwz1V1XhxF2c5VBL1eC_fwOuWmC9hhwcrIHkyJLXzIIShwoO1jyIiVpXB58i9g_NxJqizO7XJvJCL5)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtlnDUNx-w5ia4DN9pjFsZcL4Qqofd-SGgyMwNwSy9Q27gac-lWmLq6qL4NMxUYoqPHBNbznsuIvSPkUOgk1tvFiyNVV7pCWwUT3_Jj84XPKP0rHqIaScDabUSlj43_R5kLrrJrkw0cAn7DYlONnVS1feyXXSFma-FvGj0Hxr8fCZ_8LUQA4md4xwdUXPhgNetixerbTciqLJC-cDcPf5Pqrfmgjqu)
+- [tikr.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEGDodtERX3JHgMIONDRIx07Agg5Exe8WbOBPID0051pbcOS2qq7EL_43HPlrOB2T1HLFkswtRusg0pMQimxY6ebhOFOB4O1uNCJ3i9ACQJ-Cz9aceohsLWCvEy8ANgpFbfCtdsPIHUlZF5wJWPgiontaWnaveXJeoo9_CMYxpbk5hgPmnFkOlaarPC0EL70sKGGFGQ73chtxkzk9YNMWWKh5AqpBt9gERaRmNn7mZ3SRdR3awy3BjJcvlunc=)
+- [eleconomista.com.mx](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0BY8Pcchn12DVmWPw_Kiiyen3fvzP9j3LfenHv2Wv_Yd-VY4FdK7Y13lcNJufZ2iomGLKN2fEijjUq5z0fNBYXnNGTmXXxPCcmxpHA_POGbF2Cqbs9MTLyvI-z-G9NTwfn2n1encumPp88mkGGubK0EKAQEbMvcx2U7zDCTc0wZtELhYrV9oHkz_i5LID6tKvndEhMtmwAwdX6ag=)
+- [marketscreener.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ARPtiGPRmU2MG1GoYJQ8f9WsoFXbwdhA4913fRU1TwZ5oE9tY2_VebGyhOgYEu3iI-QdD13QHxH8_O8FViO4glLjK5Z8-3Jb0zM80v3xocABkpeIWRw1AdqF2yPCfeGAz7IV4mtSl7Q7tLmsy1fa6q9u7nTBmQe9uKwFP_trDrN54NxCGMHS5-usZ69dgmDr-NpvstqIcoSkj-HyYYJ-K9xEPNwvFrF_gx-30eBjvY9qMC71-i8B)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA04J2KUnueQNJQkQtyD977rsmEL57VOoGlujd-DWKC6TaOaoLLxSj6QjZS1tz5_HJRC8OCL_qmWUYaMMA2QND_H5tjGRXTPV4SzPavRBLifdhKBdz6480RTEFs0urdDGG6G3eIJG4A7nJ-MjHAp5Xg2xbC4WuYOEw54z-ZWjevp9EGu_tLbQILbpovTRDTRv8zHvzecXYaAlSH8rTgi3EyoCnt-gjIdMWc-SCrCWZYQc=)
+- [univision.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi-QcWtxFBESQjY86nTVHaaId1ixGh56VZpEPpeI91ZkLnsGtscrRbppQe7tYdHT1VZioANoj-JmgQPd7S5v9_Sgyup1ibA_HAa7RpbVsuA0VhT55QFeyHuqdSYl-oVkQMX9wFuAWwVY9-w5btmDVDHc9bOui9U46Uz5FuDHbl16rWtlJYStbNs7-6h2oyju92q_FkU9FlH17T1wzoIPlwYHjC3UpTMOJ4So-Zo_VraB96gni9lPslDO9jYn4VEpDTFg==)
+- [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnzkhVPjeMLLY9ejf_o8xHnQsKvDO0-QrPB3_DaKUoAZn7-55w6rely8-UJHY61pXIZNwr5juSwpZmZgkX1cgpNA_J1J-v-1jCe_diukyRMkpl7jkHRI6keAAicLqLlZISn9gTGIg=)
+- [yahoo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFOX1Ppmp8zqwpMQqrvMNPTSdwBcQneH2CY5kNcG-xhYtWltEhSWqYBxevMBEdf_1zyZfW-ZY09RyFM_3gXANiY7Mb8XYyBRBWey0IZsjjl9YRzBZnP3uY9LPC63HMWFPbz9VH8u1YdMqjKezrpzX2FqB7pzrKNoKPp_B8jSMMhw9frQwpfXNNSqJmFQmEG8m8jTkABBzzw1ZX8L0=)
+- [xtb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtgBKkalTGR98Z6-qGkg580hGOKwdqARVwmhFtJ5k6sRArgbkAsflFOKX9j6yIOW4aCQUTHGAf9vuaWT9OOt-VcU2UUM5u7KkR7t6yhgQ3OeG1ruap21gSzHc_a46M-Ms7tzGZW5IenhAIzA3M8dIcm4PZ_t1dvBp243tWTC3sSCbZkOX23hENcBnO0_mcvfjrErDbZlI2xAbPMwBonaiDRuqwIZ7ctwODEAdnZ6rcXaq-i9Owf3rEuKnbEDwA)

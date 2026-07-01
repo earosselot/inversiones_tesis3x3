@@ -1,0 +1,64 @@
+# Tesis de Inversión 3x3: KO (The Coca-Cola Company)
+**Fecha de Generación:** 1 de julio de 2026, 02:22
+
+> **Tesis Central:** Coca-Cola es una compra sólida ahora por su crecimiento constante de ingresos y EPS, impulsado por precios, mezcla y expansión global, superando la incertidumbre económica.
+
+## 🟢 3 Razones a Favor (¿Por qué sube?)
+### 1. Crecimiento Sostenido de Ingresos y Rentabilidad
+Los resultados del primer trimestre de 2024 mostraron un crecimiento del 3% en ingresos netos y un 11% en ingresos orgánicos, con un aumento del 7% en el EPS comparable. La compañía proyecta un crecimiento de ingresos orgánicos del 8-9% y un crecimiento de EPS comparable del 4-5% para todo el año 2024, impulsado por estrategias de precios y una mezcla de productos favorable en mercados clave.
+
+### 2. Fortaleza de Marca y Diversificación del Portafolio
+Coca-Cola posee una de las marcas más valiosas a nivel mundial, lo que le otorga una ventaja competitiva 'wide moat' y una alta lealtad del consumidor. Su amplio portafolio de más de 200 marcas abarca diversas categorías, incluyendo refrescos carbonatados, agua, café, té, jugos y bebidas lácteas, lo que le permite capturar una mayor cuota de mercado y adaptarse a las cambiantes preferencias de los consumidores hacia opciones más saludables.
+
+### 3. Vasta Red de Distribución Global y Eficiencia Operativa
+La empresa opera con un sistema global de franquicias y una extensa red de socios embotelladores independientes, permitiéndole operar un modelo de negocio eficiente en capital con presencia en más de 200 países. Esta red, junto con la gestión de ingresos (RGM) y las inversiones en capacidades digitales, asegura una amplia disponibilidad de productos y optimiza la rentabilidad en diferentes mercados, incluyendo un fuerte crecimiento en mercados emergentes y en desarrollo.
+
+## 🔴 2 Razones en Contra (¿Qué puede salir mal?)
+### 1. Riesgos para la Salud y Regulación de Bebidas Azucaradas
+La creciente conciencia sobre la salud y la preocupación por el consumo de azúcar representan un riesgo para las ventas de las bebidas carbonatadas tradicionales. Gobiernos en varios países están implementando o considerando impuestos y regulaciones sobre las bebidas azucaradas, lo que podría afectar los volúmenes de venta, aumentar los costos y presionar los márgenes de beneficio.
+
+### 2. Elevada Relación Deuda/Capital y Sensibilidad a Divisas
+Con una relación Deuda/Capital de 124.943, Coca-Cola presenta un nivel de apalancamiento financiero significativo. Esto podría generar vulnerabilidad ante aumentos en las tasas de interés o en periodos de desaceleración económica, encareciendo el servicio de la deuda. Adicionalmente, la extensa operación internacional de la compañía la expone a fluctuaciones cambiarias, que pueden erosionar los beneficios obtenidos en otras monedas al convertirlos a dólares estadounidenses.
+
+## ⚠️ 1 Evento de Invalidación (El Kill Switch)
+* **Métricas Financieras:** Si el margen operativo comparable (Non-GAAP) cae por debajo del 30% en dos trimestres consecutivos.
+* **Contexto Empresarial:** Si hay un cambio significativo en la alta dirección que implique un giro radical en la estrategia de diversificación de productos sin azúcar o si una nueva regulación importante impacta la rentabilidad de su portafolio principal.
+
+## 📊 Métricas de Operación & Checklist
+| Parámetro | Valor |
+| :--- | :--- |
+| Precio de Entrada (Actual) | $81.27 |
+| Objetivo de Ganancia (Target) | $86.01 |
+| Nivel de Invalidación (Stop) | $78.90 |
+| Relación Riesgo:Retorno (R:R) | 1:2.00 |
+| **Veredicto R:R (Mín. 1:2)** | **APROBADO (R:R ≥ 1:2)** |
+
+### ✅ Checklist de Validación: **OPERACIÓN APTA**
+La operación cumple con la relación de riesgo/retorno mínima de 1:2 y se han completado los casilleros correspondientes del 3x3.
+
+## 🔗 Fuentes y Citas Consultadas
+- [coca-colacompany.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXOmmheNyOqopzxFB8AMqx246HlAFkLvPVVjl7aoQPg8kKn88EezUPQdu76Sd8ATNL4W9itZuFDymKeCbygBlcor4cslj1Wc6-9QwOdFs_kBq2cHM0FDKpfZw5RU4o1n-rHCUespDEMhg_ZqJ-gVRbSk894F58GRSb8iS9qskVhqpOy1xwR9b36xom4H_BqI0doh-ev_Ouh-gWn7Ay0j43HVoA2-q8xCSCgDAonTAVdeUJXKwFcLop0slBPTf0KW8-_NKQpGLt2wIX-kcd9dhZw9Xo)
+- [coca-colacompany.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtkZN_7W5uMK78XOdVw9BhmqdBTQN0HjGAXoU3k4_t-5qyK8_QZljB_6ghcs9vUX9GgmD7iaLINUGuzRs84CIh-GT8eaRplT1GKvwxEI1y8J-H0SxkzHJrtTmxdQQvPJwBHb01z2m_VRuwUHsYqWRB7mDeBmrDNav9s2K9D30fEMf2WEduDFeh5T2sXHo22znpWYHr)
+- [coca-colacompany.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSESDly6-IRUP9ogFtafJvJP-ZQzGp1uG5bmPynGaODSeROy4eF-09NDsHyTbL80m91gLtfIjr1Hw4x3GokEk3Q9lb8v_TsB4SgFBuYu5O9E0TJcj--H7zIqhhJbw1HCXXi9bkXoQI8TGuboiWgJcmrgDJecp7Zn52OhhNvYn-hGtXMmMQ4rLeV37S1KpSsMBV3MqndbuRCJVrpTOSk-BcTzj3)
+- [alphastreet.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQFsvuhzPixbBSVDp0gMUBMmLU_j0KvSguykAfB_lWlCcVi0oGcRsO94E28puG5nQ653WOlqJSjVxj_jmdiFwrI4CnJl25zliK8TWAh0yTWdMVvnpHtvgpnaG24vGtWwNSIYio4jaaIaKx1nUb0enfGPHve1_Ust8lLzIUZNB9HpDcXEs8MwaaC4tTCZhdI8eM2RkahoE5XO2dsxCoNY9Afk4=)
+- [foodretail.es](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_c5LDwj63clMVXWMyPHcqnshqlocdczIyvKDn-O9IYusEvKgao4DR-yg3O_lo0sMK3GWpVqJiK-9uiLPNKmFJTgD-YfIfax1dty84Q4htYHpXG57C4hyODGzuFU9dSA1hVlak7O50wJm6a8hQUJjqhcqcK-pUTpZh6d8nGqRssJB6PgOHb7AE4fzC3CGpEBWA3kLyYKp6Bl20o3aCIdPcqag=)
+- [xtb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCswXvRf4yVG5v0u3WQsqci_vGksLK_cEtPZ8oNvNPdY7rzAIfoA_QgrrA2W3W-rQRP4RfFLy8-YxkDoS3Lxj5pPpPme3ZRQG5r3snk-ArzObpmApdHOzPO9rGdcHjGkTcCxxrcFXvof0ky9a2RtlFh8O5KU-iclcN_b70rdyqkut_6HYVYfDiVVOJDMJXtUgJeLFh_cwhW7sPTTsUwuz4tmirDJx60NYoWpiuqEgBcthd)
+- [bloomberglinea.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGalNLAFc376PvQrtVpFaWgtBw4848s3wKDOTC834OXmBghpiuh1rUtovUdmfjkCbhJ39QrbdmV9I1slUT57mxYrQIONRA8b-8AUqSCzeHMU81HaNAfB7eD7XWXK1uK82Re_QVaDqUmbKjCI9M-VcsOqiFEPAv0iGCN61WyBRlpQU1PsSZbHxV66nfTBVKv_TSaXnAx_qpNC5SSiqV1f087avd7GffkxTzoJQeBWIkR0yeAlve6ti0=)
+- [qz.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHODmyqO3MkbtDMnEr2TaECI4ANEGp9UfZc7gapjqEQHcui3bBCk0wPkFaIHljhkP4k8bAqWBjVTUO4TMStg-_-amZREvQimNpT4z1MH4c7OD4mcWUSAbCCpLJ_TM8h7-xxbf7-IBWugbX5C0KKRrNtVwRvevKP0K2zGB4qFtqcgakFZUr0Ui7v7XLT1qeA)
+- [roboforex.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECwHMdQH39rL2Pjj1SBwu3Tn0qxvZevLGg3cmX3IG9ymYwKfBuzim2jkoCFGeAYteJkf9dlLULrjQKNuRHtNYlUl-89krnItDpwP6tWovD5WTMh33R_5EYG-l1Vw9d7maIgrIzwGN5zXeWG3mAlN1vE-nqaUYfXSnHF5NLlDnhamFnxLPKKcNnNvl8ipX6Z63_Sz5grXWIWSOM)
+- [fool.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwZ2j1y4FsaN9HF-f8_JD722hgmQftMv4flkJ2ZMZWSPzMw-MyRm7z5Tn2X1FwBK9XAr6WXk03b23iSA78GECBrDceOS0Jk_9rbwNKGhT0x2iRN1F2qX5RWCTQCog7rYKQvWkIQV3l-RwOYVOcitk7BrVOH33-hCd0HCEuINc2YmXvBzq8L-JiUp7MzbFUzko5h0WKdfsO)
+- [slideshare.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_blt1WOc7YBsOUjFu3pji4JEe36hYyANTOOwb9sK00atbLuqTM2jRkQk7Q9QXEzGgtlRsC4yvx3HZPbr0FuLpCE3ltnJMTOGCVj_GUKc2pPAmo41ve5_Ihocutx-auhMFz_j3NS7OXGYD_Xb1m7Oblcf4gxmNume-sZpmLTE8YNpqxP0ppXlvuA==)
+- [transforml.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBI-ev3bzbYxsMJSTdv7Kopw_3ldtZx8V80Q-YRmEY3LDQf1OOv6DgJN1l2Bg4Ed4CE7kqwvRR86jXgxfsyrLGeYLbUJWkLmRHJ66bWt6PPHdwDg3p55EZkGLUmiasscU_K4-8YxVILbyQXcrFaUhdE9EXIYEozYL4yh4=)
+- [scribd.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Z-Y5ejLE5PsSQR-dlPYkojsnhkZW2a1izWo8TBS54Vn2uTHPtMnmvEJZCo15l49-iTb-ECTYbkA43RGYO4u2iqLq_OgukqqXwFHLbfC0ooVVWdwIgt3lPgnZN1DvzvPtmN9HeSm5PgNpC2cdZcHm7hTC9sU5h1HCXRdk9Q4EzLg8c1f5qg==)
+- [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaVScs1Q2kyNmrkfroeM7iJ2dU2DD9XF23emP7EWLjP2-ObjSvz2SckdjLR5IqABKRVPWsT4RRermTsPHrSIji3KL7eQuzKsvF4OLV0cfkvk08XmLH8vlSa6yWUE1pE_Uwlk2bSjfgcaAiJBKDzP5ncvXX77KLso1XUWMqMK82WFTmcQweqd_n)
+- [coca-cola.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgfzkvldKskI_0RbgcwCaEhkkzHqJZixXRLS3sSKEDBONaFJnx-ca5rfycoceD64u306ITv9aJmZlZaK-wPNAqAd0Flqy42-ySd9FbpfeXkEm_Gof0zzEcBgcKll1n8vaVBMdJwRgEPXRAGYu6eUmKZqk-wh1p80ia9mUFDYtVe-aXa2F9DDAJ4gaUhr4Sejd3Iv5hhmCQt9CDQFUzFqJPrSelqWxPL5ErDf4eyeTz6IR9xebZpKWJBOjqeKBsQw==)
+- [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoMa3LgGH1b4xGCDOnnWFNZLMJj4ItVozINCLg0Qo8QBbAX7hjRActIhvnUSzhflJth_zu_Bk6mNlfNZMAtl0kxyhy1OvT-KG7WxDVEFchcLna9CcYl1-IQ8jYo92QJUOPLZjVGg==)
+- [coca-colacompany.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOR-KwQOC-0lno6d85aXyO8hg8-8rXNvb_O79A0Dx3Xm7eY0Ft3uC8tF-doZG3NwiujHtwp2ciMw7Bb57pcZtPKtBoXKqUtrB8jSegIRizzZUmzw2dtJMUeWER4-dxefpHBsWPf_lxq4LAJcq1JCxavN9maRLo)
+- [retailers.mx](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfqyc056-8X87lZiWfSt6MhVDFxRAe7C4gJlKHoH7_sZblWKydaYSuxNSwT9YySbj7gINEAwLufHHO0JkT0H8SjWJV4sHOZYwTg_vEhTxY8AOXnCtyz_mDtlg45cxmCuKasD6pfp7uJkG9JZoNE8SK3gpvXHemYaB_A0YzGD6jneqBGqgafZ2bbtLpdEQZ3_xnNSsSlcU=)
+- [bbva.es](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr33cujss173Pr5JtiUGrPQPC9Ehx4p9wsCkUC_enahucsKhZ0gZ9Q4mOzPxE0b_LG4rv35cJPrPiLAVOWhqq256EQlB8SF0PsXNgZPM-vZb-TcxCRsBYHy3eDXas7p9w2vmsZrhDFpiETVwzI3b8pL10TAwjfz5h0wDl6mfAq-goE02FEqqql75c_FhFz8lb-Vc0CFuo7hPzAihZv8CoJdH9lnJAKvaX3-qY4sqVfmDuOLYXZc8qNgJEANCeQJd59UvY9uPZQcmqACL2Nxuf5douPksiulvum4Mvgd74=)
+- [simplywall.st](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8lPJR2Zg_136Y0YDZlr2oq428pG6arTAaz9VQw9sgaccDZnoVaiovZMDV03Rf-EgNAqVVr042nz4X8lanBbUTk-4IeDOGPfBN8hmNDCXS9txD0i-WFqrS4F62pgrSXN736lxSrH8OUrXNmEJHLDtKB5uZl7m_P9yGxIsSie7GFirExigJ0xjgEZzvH971Kiti1L-5-bhnHjFIFQGJjcPwLvZ_3nxjfOvuL5emwKcKAc1vReAEFSU0D1g1bP8PKORCQPbqXcwB)
+- [aarp.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo0khZ5kmvTGoaN9wWB9WFa-AaXbDC9BWb84STOq_nTvBoYlNd3ER8lC7YKER6QrCjg1905DnrIdNjEquL1A5xnpcI5OBCbe4DyyNEEDARFdAiDri2hy6pEEn6chuDUD7TW75o4hIhZc_17AB32gBWyAtBs6doWuBqcF7FXRXvlahxbV4EstSqxcOdZhyp91WIKtoMLCbDr7g0H9T4)
+- [elpoderdelconsumidor.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB1rRErnsMI-1Lu1pHszkKVH9ywpumDPj_gcq9z6UE_WEa1KykIM50RXcQ1B1FF95fmyjykDCR3cnX4fWSvo1qhZUruH66Zyvy2NKpj0EarMCWE7c-BO8RXSpKmHr7M7dbrHlE6mQNH9TOYBhzGut6z0pyDJGvmJ6JZrpUZf4LvSytoUK3f1GB7rh1ZUBt-Ho6t7XZpAla3K8=)
+- [who.int](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1IfMX-Nx-WGbBVG2JT0mCdGD_zdiEcjgltMOk34ubV4cIFoDxJHiPxucOt1SH60a3vK26qyTPJL6YR5901XV5CiTPvDDPgEYnwUh-OZ7dRiifGiZXbyC_m44aN0r60CYpDD2xNrbgdRzETK-EZIk3AQBqBBrJpxB6IShBLQ74XZfhNEymYl9o6xQo9ljoIW2NSnTpQBK-d1uDOjaSBAhyZDgAw_6TM-yw2zCUO_b9-6YkmSY5djuw)
+- [coca-colacompany.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Gh0Z2DFPsCIh7NlIfQdQH5PiHLSS1JkAmn0E99ScXz1ysX8bWxJOxxEeVnpGPhwt4LDma4gL4XFEwmlZP3ZggCL4Neog4E3EYS-Hxra-F9V6GkQO1-PNy_gg_ayKAJO-LqhiEeqE1eZN_PBswRZuZabdQwg-4QbradbKGktytkYpUbIVEfjr1DiJVfevyJghN8Pgqf5W0ZruMIRT_b4Qqjk5qzHgRR4ZqLRjkF2JYiJMRzSrk3XTilFQPJEDx057liVt)
+- [simplywall.st](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCMMbevgEJtyCp2cXlf1UFdUvVN6n8pFFy5xdFszyezaCFo2BI7syg9UwHaL5qJ4Y2hdDVH5O67-X70BSVmK5_UhDd5MQgmX5LbdCWdEJto_k_4iHl_cZ6XfJtJ-K2T8fB8wqfXqPZqqOCSrTyucRHLSnrrPUvoJOigvGwaKXi6QJx00JjlX4z)
