@@ -1,0 +1,90 @@
+{
+  "companyName": "General Motors Company",
+  "centralThesis": "General Motors ofrece una oportunidad de compra atractiva con un potencial de crecimiento significativo, impulsado por su sólida estrategia en vehículos de alto margen y servicios, y un precio objetivo alcista.",
+  "reasonsInFavor": [
+    {
+      "title": "Potencial de Revalorización y Confianza de Analistas",
+      "description": "El precio objetivo promedio de los analistas es de $95.42308, significativamente superior al precio actual de $76.57, lo que implica un potencial alcista de más del 24%. El consenso de analistas de Wall Street otorga a GM una calificación de 'Moderate Buy' con un precio objetivo promedio de $95.65 o $95.70, lo que refleja la confianza en su rendimiento futuro."
+    },
+    {
+      "title": "Estrategia Diversificada de Ingresos y Marcas Fuertes",
+      "description": "General Motors posee un portafolio diversificado de vehículos (camionetas, crossovers, automóviles) bajo marcas globales reconocidas (Buick, Cadillac, Chevrolet, GMC, Baojun, Wuling). Además, la compañía está expandiendo sus servicios de software, que son de alto margen, con una previsión de 13 millones de suscriptores para finales de 2026 y un ingreso promedio mensual por usuario de aproximadamente $20, lo que demuestra la creación de nuevas fuentes de ingresos recurrentes."
+    },
+    {
+      "title": "Enfoque en Segmentos Rentables y Optimización de Costos",
+      "description": "GM está priorizando la producción de vehículos de alto margen, como camiones y SUVs, para capitalizar la demanda actual. A pesar de los desafíos en vehículos eléctricos (EVs), la compañía ha logrado mantener un margen operativo del 9.36% y ha revisado al alza su guía de EBIT para 2026, esperando entre $13.5 mil millones y $15.5 mil millones, lo que indica una gestión eficaz de costos y una perspectiva positiva de rentabilidad ajustada."
+    }
+  ],
+  "reasonsAgainst": [
+    {
+      "title": "Desaceleración en la Demanda de EVs y Costos Asociados",
+      "description": "General Motors ha experimentado una demanda más suave de lo esperado para sus vehículos eléctricos, lo que ha resultado en la reducción de la producción en plantas como Factory ZERO y la incurrencia de cargos especiales por $7.6 mil millones en 2025 relacionados con su estrategia de electrificación. Además, la competencia de otros fabricantes con estrategias híbridas, como Toyota, está ganando terreno mientras las ventas de EVs de GM han disminuido."
+    },
+    {
+      "title": "Alto Apalancamiento y Riesgos Macroeconómicos/De Ejecución",
+      "description": "La empresa presenta una alta relación Deuda/Capital de 199.048, lo que puede aumentar su vulnerabilidad ante subidas de tipos de interés o recesiones económicas. Adicionalmente, los analistas han señalado riesgos como posibles reveses en la ejecución de la estrategia EV, mayores costos legales y regulatorios, y una previsión de descenso en las ganancias futuras (un promedio de 4.4% anual). La debilidad del mercado final y las preocupaciones macroeconómicas generales continúan siendo factores de riesgo."
+    }
+  ],
+  "killSwitch": {
+    "metricComponent": "El margen operativo consolidado cae por debajo del 8% de forma sostenida (dos trimestres consecutivos) o la relación Deuda/Capital supera 220x.",
+    "contextComponent": "Si General Motors anuncia la cancelación definitiva de una de sus principales plataformas de vehículos eléctricos (ej. Ultium o BEV-N), o si se produce un retiro masivo de vehículos que afecte sustancialmente la reputación y las finanzas de la compañía."
+  },
+  "suggestedTargetPrice": 95.42,
+  "suggestedInvalidationPrice": 67.14,
+  "citations": [
+    {
+      "title": "marketbeat.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8BC3yooSs8NjmM23zlYiqRy4EVdJNn3umNvelf8or0IE3HS39x1m4-k4sJe-eUiSG3cAi9NtX48zqMWHahsczK-8xaO97HehtSK_9U7MdGKiimSmhAAoihNaQNN4aEFxu9IMLZZyvmT5XOHhv"
+    },
+    {
+      "title": "perplexity.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2w32HAao_y0PU_3O53_7bo-o8M0Ej0NR4jEY5RWYZOnwbeoeBQdbSR092NWb-XuMzsX4lP714kWOq-Ln5z2chEIbTvSE9bchQefrvb5rBfb85Dbv7Vz2Vxgp4eWFJkOAWFOQb9ygUZ357du0RhY8iOJTNbamTuLfy6q8php8="
+    },
+    {
+      "title": "investing.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-e44_1YelYo1KsOvexDTFn4vL-qxCbBEcu9u6SVL9hM6rt4CfIsnjrlEWx956TVbZe0nnHE3KQtyNuHlSIFxDIHkThuL9ktDP3VJZZ6PdLhQbwG1taFssorZ0FybOm-apwNabXWO3UoSbMagWLFNS3dn0ZqUhofTxwj2drbc7hnOBevLjssesyhzf_cKLrA1_Y0pZEdplZKLWcMhE9UvZ_g=="
+    },
+    {
+      "title": "assemblymag.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXJbQV7AYOYGupilfSce2eyWNc8YcmGiK-e9cTCOCCANomNh4RtiWsMqnPJqVQXxtIz21DqfnuDo5Hpg5zt_56MmUlA_4tRui217TTVH_zuD2NHcun8is066c2laqLzGaEh5fQRC_pc6Cy4Tbv189P1E38bwiwqaTYW559xr0JNtsqZ-gxFHydxSrP3XnJaUOUkHATG--2BYp23bj80swIFiI_rhKxKZ4VczBV"
+    },
+    {
+      "title": "seekingalpha.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPQ8nEtSODxLF1IzcBC6bsjxTkph6dg7FgGWLu4BBugzkAU5_3U-B2bnXS1AT6Ykr2mtUlqxI6rfus827H5FrqQ-LVp4aU5lwfi3oU9UEIWktdKOWdwUXxnJtxt-iQkeiU01WNG57z2uohhpTqaE-F-PJ7ZmO4Tc-GH9ETohgXevry9R2DWsOAflwcOBr03dfBi06hcbuSGB-hv_sRsNfbtBpyN64G"
+    },
+    {
+      "title": "hagerty.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpsns-xJyh6n54OnoqP2dMM1Qpgc25LHQSA8Dlb5WW9ON1XF-1WG_BXtRg27YUls5-1haqT8DIZ6jHlxYqI-N1BhCN-9CFigT1R-RoHl87mDLR8FpgsP2Q5n3yOmqJPlzb7UG6pDOSi80Fsmk9cxFNDT1iCnDfpxL-"
+    },
+    {
+      "title": "batterytechonline.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-_-z-XUAaJ_I8i0CcOQEXSm8uCQwx7thgB9IZNNKkozUAm4QvZa9sDcwhPsUFIWAy8W0SE3xU8L-8Z0RN7eD7_PbYggpU4mngnEnP0b3Hx8fYn04N5JGbbe2xplyCjvp7bXpheKDo6jDCOecVFyWDKWAAQ7MBVktyX7PqLCQJI4f2yxz2CGHqxRCODknx0NL6KFzvVgzzPTylgzeudEoYq--9R52VypfwaQXv28xU"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKIXZiV6LJ4bgqvmZt1UeU-ZDG83BMiGUDFFRqDj2vr_7WnobvUkCAjQp5OUukoCz4a2Xif0i45sHsFH8Oj3coA3CTSrw6vZtZ9c3JRUKV3hdAFg6khciI3SUfQxWw8eG63ec-"
+    },
+    {
+      "title": "thenextweb.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO3nKn1UqNyWkqku596zxvQP8W0K2fcwFWTkh2bylOFsIPSS7yxzFzyVcMeJcc_EY0GrizuJqBTM8ce4jXYTXKtK31CQ-NpLtUwASptdIynSM4iXbq33Oqbg5rKkWb3FyBrxFbYMa-HJ9lr-w0MF_iRS3vSBleJucx9xPGGGFJOBC0aQc="
+    },
+    {
+      "title": "simplywall.st",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHCgrrRQ7oST_-Rro8lZKdMTgMOHZsWt1ARSah1WDmECO8TzIn5E-zrG_3UcAgkWC6ESwCk6cnAtydToT3jHI-KSgkvvuTYtuOCs5rcfTiNTDHcICCfwTZpUJbx9pwR61a2IfjQic2wlmy9UjV8hJ61eLsSkHhqUPxH8NjOIM_S_D7Zsv3l9K-xSak0byXy5RkhO4OyQJLVEWMT_i4a9J9Hrb64S0oXx_uocPad64peU4mk80JEXO6zXSqLZU0vA=="
+    },
+    {
+      "title": "simplywall.st",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEh2RsaUnNIyUBX50vmkxU_ATiy6bMc7agsy9PDGs2Wz9rxQ9r4ZkQcn1ZUGWCgFXnY3BhvRj5M4E5PCC85BwpVDCyloS5JDv30LNK4JEcEDdWoBBlZ6gM6w9tk4R640dOKVS_U8XGx9o_WlvX4FFFDkYqF7I6k1dvHuyId"
+    },
+    {
+      "title": "electrive.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8OHL4R4kjtp9CZLTlmDCKuxDllc_eKT-vha-C-Ge1CQw1m_Y2fb-IpeZjbAA0IEW_4jSZM4AGldyUWwMCkB_sZ9em6qD0TbibxnZYdUdB8mdOuWRAYWYSUbAFfjznAO_vJns8HqCJA7lcppdEbvTpa3CvtreZiZa6ren3QZeT7LZlBD5lZnAFw=="
+    }
+  ],
+  "currentPrice": 76.57,
+  "riskRewardRatio": 1.9989395546129398,
+  "rrVerdict": "RECHAZADO (R:R < 1:2)",
+  "ticker": "GM",
+  "savedPath": "/Users/eduardo.rosselot/personal-develop/inversiones_tesis3x3/tesis/GM.md",
+  "filename": "GM.md"
+}
