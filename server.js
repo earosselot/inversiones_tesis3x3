@@ -59,6 +59,55 @@ app.get('/api/tesis/:filename', (req, res) => {
   }
 });
 
+// Endpoint to get historical chart data with moving averages
+app.get('/api/chart/:ticker', async (req, res) => {
+  const ticker = req.params.ticker.toUpperCase().trim();
+  try {
+    // Pedir 16 meses para tener datos suficientes para MA200
+    // MA200 necesita ~200 días de trading, más 6 meses (~126 días) para mostrar = ~326 días (~16 meses)
+    const startDate = new Date();
+    startDate.setMonth(startDate.getMonth() - 16);
+
+    const chartData = await yf.chart(ticker, {
+      period1: startDate,
+      interval: '1d',
+      return: 'array'
+    });
+
+    const quotes = chartData.quotes.filter(q => q.close !== null);
+    const closes = quotes.map(q => q.close);
+    const dates  = quotes.map(q => q.date);
+
+    // Calcular media móvil simple
+    function calcMA(arr, window) {
+      return arr.map((_, i) => {
+        if (i < window - 1) return null;
+        const slice = arr.slice(i - window + 1, i + 1);
+        return slice.reduce((a, b) => a + b, 0) / window;
+      });
+    }
+
+    const ma50  = calcMA(closes, 50);
+    const ma200 = calcMA(closes, 200);
+
+    // Recortar a los últimos 6 meses para el gráfico
+    // Ahora la MA200 estará completamente calculada para todo el período mostrado
+    const sixMonthsAgo = new Date();
+    sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+    const startIdx = dates.findIndex(d => new Date(d) >= sixMonthsAgo);
+    const idx = startIdx === -1 ? 0 : startIdx;
+
+    res.json({
+      dates:  dates.slice(idx).map(d => new Date(d).toISOString().split('T')[0]),
+      closes: closes.slice(idx),
+      ma50:   ma50.slice(idx),
+      ma200:  ma200.slice(idx)
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // Endpoint to generate thesis
 app.post('/api/generate-thesis', async (req, res) => {
   const { ticker, geminiApiKey, model: requestedModel } = req.body;

@@ -1,52 +1,51 @@
 # Tesis de Inversión 3x3: MELI (MercadoLibre, Inc.)
-**Fecha de Generación:** 1 de julio de 2026, 02:16
+**Fecha de Generación:** 2 de julio de 2026, 15:21
 
-> **Tesis Central:** Comprar MELI ahora por su dominante ecosistema de e-commerce y fintech en LatAm, ofreciendo crecimiento significativo apalancado en inversiones estratégicas para asegurar su liderazgo a largo plazo.
+> **Tesis Central:** MercadoLibre es una compra atractiva por su liderazgo en e-commerce y fintech en LATAM, impulsada por la expansión de servicios financieros y logísticos.
 
 ## 🟢 3 Razones a Favor (¿Por qué sube?)
-### 1. Ecosistema Dominante en América Latina
-MercadoLibre ha construido un ecosistema integrado robusto (e-commerce, pagos, logística, crédito y publicidad) que lo posiciona como líder indiscutible en 18 países de América Latina, con una fuerte presencia en mercados clave como Brasil y México. Esta integración crea un foso competitivo significativo frente a otros actores.
+### 1. Liderazgo en E-commerce y Fintech LATAM
+MercadoLibre mantiene una posición dominante en el comercio electrónico y los servicios financieros digitales en América Latina, una región con un significativo potencial de crecimiento en digitalización y penetración de e-commerce.
 
-### 2. Crecimiento Acelerado en Fintech y E-commerce
-La compañía continúa demostrando un fuerte crecimiento en sus segmentos principales. El negocio de fintech, Mercado Pago y Mercado Crédito, impulsa la inclusión financiera de poblaciones no bancarizadas, mientras que el volumen de mercancías brutas (GMV) y el número de compradores únicos siguen expandiéndose a tasas elevadas, como el crecimiento del 38% en GMV en Brasil y el 32% en compradores únicos en el Q1 2026.
+### 2. Expansión y Monetización de Servicios Financieros (Mercado Pago)
+La plataforma Mercado Pago ofrece una suite completa de servicios financieros (pagos, crédito, inversiones) que está expandiendo su base de usuarios y su cartera de crédito, diversificando los ingresos de la compañía y capitalizando la tendencia de 'fintechization' del retail.
 
-### 3. Inversión Estratégica a Largo Plazo
-MercadoLibre está realizando inversiones significativas y deliberadas en su infraestructura logística (ej. 14 nuevos centros de fulfillment en Brasil en 2026), expansión de su cartera de crédito y eficiencia operativa. Aunque estas inversiones presionan los márgenes a corto plazo, la estrategia busca consolidar el dominio del mercado y asegurar la rentabilidad futura.
+### 3. Ventaja Competitiva en Logística (Mercado Envíos)
+Mercado Envíos, la red logística propia de la empresa, mejora la eficiencia operativa y la experiencia del cliente al facilitar el envío de productos, llegando a más del 94% de la población en mercados clave y consolidando una ventaja competitiva sostenible. La compañía sigue invirtiendo fuertemente en su infraestructura logística.
 
 ## 🔴 2 Razones en Contra (¿Qué puede salir mal?)
-### 1. Presión en Márgenes Operativos por Inversión y Competencia
-La agresiva estrategia de inversión en logística y expansión fintech, junto con la creciente competencia de jugadores globales como Amazon, Shopee (Sea Limited), Temu y Shein en sus mercados clave, ha generado presión sobre los márgenes operativos de MercadoLibre. Analistas como UBS han rebajado sus calificaciones, previendo que los márgenes se mantengan bajo tensión hasta al menos 2027-2028.
+### 1. Presión en Márgenes por Competencia y Elevada Inversión
+MercadoLibre enfrenta una intensa competencia de actores globales como Amazon, Shopee y Temu, así como rivales locales en el sector fintech. Esta competencia, junto con las agresivas inversiones en logística y subsidios de envío, está presionando los márgenes operativos, con analistas como UBS proyectando que la rentabilidad podría permanecer bajo presión hasta 2027-2028.
 
-### 2. Riesgos de Calidad de la Cartera de Crédito y Macroeconómicos Regionales
-La rápida expansión de la cartera de crédito de Mercado Pago a segmentos de prestatarios menos probados aumenta el riesgo de provisiones por deudas incobrables. Además, la región latinoamericana enfrenta desafíos macroeconómicos como el lento crecimiento económico, la inflación y la volatilidad monetaria, que pueden afectar el poder adquisitivo de los consumidores y la calidad general de la cartera de crédito.
+### 2. Riesgos Regulatorios, Macroeconómicos y Elevado Endeudamiento
+La operación en mercados latinoamericanos expone a la compañía a volatilidad cambiaria, alta inflación y posibles desaceleraciones económicas. Además, existe un creciente escrutinio regulatorio sobre los servicios fintech y posibles prácticas anticompetitivas (ej. COFECE en México), mientras que la relación Deuda/Capital de 169.977 es considerada alta, lo que podría generar vulnerabilidad financiera.
 
 ## ⚠️ 1 Evento de Invalidación (El Kill Switch)
-* **Métricas Financieras:** El margen operativo de la empresa cae y se mantiene por debajo del 5% durante dos trimestres consecutivos.
-* **Contexto Empresarial:** Si se produce una regulación importante en Brasil o México que restringe materialmente las operaciones de Mercado Pago o si la morosidad de la cartera de crédito de Mercado Crédito aumenta drásticamente, superando las previsiones y las provisiones actuales.
+* **Métricas Financieras:** El margen operativo consolidado cae por debajo del 5% de forma sostenida durante dos trimestres consecutivos.
+* **Contexto Empresarial:** Un aumento significativo de la presión regulatoria en Brasil o México que resulte en multas sustanciales o restricciones severas a la operación de Mercado Pago o Mercado Envíos.
 
 ## 📊 Métricas de Operación & Checklist
 | Parámetro | Valor |
 | :--- | :--- |
-| Precio de Entrada (Actual) | $1697.39 |
-| Objetivo de Ganancia (Target) | $2217.00 |
-| Nivel de Invalidación (Stop) | $1437.60 |
+| Precio de Entrada (Actual) | $1768.51 |
+| Objetivo de Ganancia (Target) | $2208.63 |
+| Nivel de Invalidación (Stop) | $1548.45 |
 | Relación Riesgo:Retorno (R:R) | 1:2.00 |
-| **Veredicto R:R (Mín. 1:2)** | **APROBADO (R:R ≥ 1:2)** |
+| **Veredicto R:R (Mín. 1:2)** | **RECHAZADO (R:R < 1:2)** |
 
-### ✅ Checklist de Validación: **OPERACIÓN APTA**
-La operación cumple con la relación de riesgo/retorno mínima de 1:2 y se han completado los casilleros correspondientes del 3x3.
+### ❌ Checklist de Validación: **NO OPERAR**
+La operación **NO** cumple con la relación de riesgo/retorno mínima de 1:2 o no se han podido definir todas las condiciones del 3x3.
 
 ## 🔗 Fuentes y Citas Consultadas
-- [seekingalpha.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlTf8YllwrvOyyG_AeQ4eWtBjz8G3mQ8zerq4WevjuyMDEQHxDfNS5JC8hcRlyHNxFpQnIxGanTv7HXUGPqsAHjTM5v9QLyGxMYPVmZE44UIumw_PjJ51BHaNa2_Tp-1ZJR19tux0VNHpQKYi8P_0dwmMoI9A2Nw5hrzvQrX4LN1mRnxM01qQun0Nh8VZdleD9GLrj4aAapwQsR1xSnHFmyTIIPkQPgIsoJF5d)
-- [hbs.edu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYMvbGlwtqTpSrKtK7pORWqA8Ih2T51bC8gQ4Vtt85BuUZedRd4MhllmT6Cu1-u33HDpn-O6r_4WknIYeTrZO9BkQrqoezhU41yx1tR4J1B3IeNHkqpeVe81Uk4QCVvn_jAizEkOp4JHRjaOSE9iVI1ooN94OmxJ0aV13DIxOKpmVbEeUth93sps30Q-09zWJIednNbHeO1UU=)
-- [compoundwithrene.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr99Z7JEsjYXZGqqF7yHaLjMEjEOhsPwh3LNWExMF35FRM50ko7H7fFygNAD54HhCcwaIRPAQdi7PeH9n3WpjRATD2gJ_5Te9ZX8eIPd2qrdivMLtXHo0CCaAO_RmqKios7m1SX766wTtSi5bwlVnHZiKSWJ2ObTimHA==)
-- [gabgrowth.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1NtV14yrc4KMl6FKFgRDZcBgbXL3p918N0q26579OCkHahgLPknpBRYBZaeqyQS7H0S-9cnAuKTpFuY3qBIBMDQxN0GhLeqws_YYqPlB6ZWrvzsK9c6t5XGAEDaxAqIRVBOxe46j211ud)
-- [levelheadedinvesting.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh2mzKoyy-8jMI2rFukC9UhNIWxO4eFomdMO9NVLA_yxXI4e25GwN85gHhNYVao5XOEltyH4B00h4Wuf4cqLAuP06Uyb9Mgb2-Np3tVKp9jmVx0CgOlAYVP15F5QQvvmnlOXY6JRpRUGLf2I939zwIN0Ii-zg5dxbu7MsmvIeqFuadzMVGCe06ceL-wmgKjDWR1Eea5P1-6v8oj4dsS4a2TgRH8W9tLi1RdHYkWrNk98nbtw==)
-- [seekingalpha.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOgeHbe7lmdqA2ifLpTQGXsfX_utiJpRM4HnvzpI3n5c_c_bvieLdDCz-EciVp1LDgQy91LQ9wOFQPzXL9d9jLg1GWYXpHgGgmvJgxHX1wIByi7syyYZDeOki8NwUjUn1HetGVUwmuK37aD82bddzqxWcLDgrhRzDFzR1DoEI3SumWOvqHoAK5rFDknfauLjDEi6X_Q2ISxyr40hI6Mr9Dqi0=)
-- [alphastreet.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG5cHpFG9kGmoDUdvsRa9lU8Eg56ZIQWVVN3w9L58otyZHZU8wMomiN8McXek7Ep5iDOKY_FNlEHaRKumVygdjG9A-aFaRim3OWM73-xsT4L8pIq0nFyMjX_2rrNjdN1lZJgwA_xoVBHqykZMg33nhHuhEncVZfgDSQSXBzmDGQUV1q3UNNZj6ikvS-7Og_4XMlqtB4f8_tpGOyAkwczhnporD39fpD8P4JVwvGP8=)
-- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8BvJpGnOFsAFYTEcdnYI-aGNt6bLW601mdLXEwoAtBVj2QbO2ePgPIYb356BpvbwX-1C5qDjGg00eUoAgdMqQ7IV-vdsIoHHAFwL8JmNLP4oUzJ3L2OHO9q4alybR7SHgtRAvp2hPAZ2-xXuMpAnNGS9pnOmqb1gX-JCijveVsitfIss1R7x25OBwzRGKwvBaFvBkM2jZdLf8cdONQSTOtnng8vcJ3y9w3FwvO74Abl1YGtXFnfFBeTDPulvGon4GOw==)
-- [zacks.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3-VE2rRIMgcovcoIBQocGLFZop3J7nub64PK4FAnykJ6ddqJs9QhjPFLLyFrMI6maHZeHRfk1Mg2aE5kEifw5ansfh-Bhkpev-hjUQ1QJIx5Rdz0MQRjcpvD983TnPe5R__SS-Pn0vKKtiEFGG-WVe9vj2lSKUZP-8NCd1ntLA5uDPg8I5RcOha7ZWkRsWArntZKXesctO1UC5U_DHpH0Z2nSkqUJUU7Fkg==)
-- [simplywall.st](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRem6a3ZyYpzHunjVJ37YTJWwxF78k5CvGMtrCQpQbXIkjeg3ot4nRK8O5yD42-ys9hiyiJJGt1f_8X0cyGHX043eYNkNAI2lNFwH-tLCD_yuz16nHpMxnsOyw3kPw42sY2vJZn43iADnalEBF1Cvy87mTEmeREPSLbQ==)
-- [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaMdm159BKthBt7KTc2bAT5c81TwC3dqbS9f5iSQ3uepH1ChT2Eu1XubY6ISHL0S15OzxsePLsilZEoTZCPcK_J4sfrSfSPii_X9YwikXWWGYdgauXp9PNosxOnUgGtkrWTi01vc1vlfuJiMf8S_-Zv9EGgEyjaLdzvO5ZVvplzCetQhSEK4X5onlzTfq2IhMNO1g3HgAb57cIXC6cCqe9YWCF5Q==)
-- [stockcircle.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhXsOcaiN5VWTk87KxvzbKzVdtYZVFxqBDhphSzrRNQQ5VteEwPZKu-SRMz8hDbXGxCCEcXTk643YXDLxBRZgcHENKFG7bmHjsfxaxVUn6kDySq1xST4rEu9L-SCCK)
-- [substack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi4C8EeU0chIVkxxpR_KL_ew6o0dmGs3xssbWW-2psplDnrSNuaUDhr6uhLekb8UR6K_WFPBqoVg3QojDqO3usjGc5ZpD-4cMMHxeWxMBPoeUC6sWko3uI9a5X8upDPJJgKtYeEt62rPKsQIhuzVA3cSZp3UYCw5S0ZTYR4w==)
+- [businessmodelcanvastemplate.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk6zE_tvZEp0bsV6Oes1HsA21vagctxjMPh54loaLN1FX806_nurnTEGBU447Mau5wWlZKU0XjYyUK9vjeN4WUes74YxbI4R8jtTEidpuDl1WsbtaaGLO6ubBTLJP6EenNZVpdj52-EXkHrkWdi2HJIIrsgdtURbUA9P2olsOXHCXTKwjW02kDw0A6T77pnC2AYYXFR5Hz)
+- [gabgrowth.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeZ5PYuiUR53gR7yF5J-n3rWTJaDTzR0-r-UbhxnKI0u8B6tHFIZoIo8agP2ikLPDBqtN3u7I-_OLGNgM0F_DBQrzHXHiMOuEedrM5dxIhrdrXQT8gXlogk3PdMtyWNpSK4DJbGDjyRUG7)
+- [substack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgJiW8wYmzZiTN-IrRNViVJBbMkeM9sKokM5jkuVM1jTNQA1uv9KjRpqSlEVbNAEGw_Ahp4wDrxKNw4O46oGkgCrYz-g4t07lVo9f5j4P3JAIJLYQOIpFKLRXeoiTTR0nONuxStBFFeQciWwPyM84aYHYMwI5ZsCbY5TCzs7XjOZ8cyw==)
+- [tradingview.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0GtZXQgcrkCBKS-I9ikHHfGHohE0sQx6g6P2CVpdY7UTG-4mfrJetkD95frGX1TLeqRd8as4NyoNDSgF3FUY0oufEAfaR_WNjKmBetUoa4-zFD5OuiD4wvFpBprP4vmAPdI0q47b6Hd0BF8p41DjzE4kzLabDTICQrkyERRUPrTgw41sPUMVdILDmhENzB4Jq-nPe_LYoWpDaLmrlhugJVlrD3gtSihZ_)
+- [compoundwithrene.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx3TtJI20inC6BqRaTD9Ke2O74NDC8txzBRK14b6syQqElhRimv2vr7jDysWoPZjNZxdcpl5dMD5ZlsFFCnEBwKmstkztFV6d56tDOulRLKWsxVazVuD3f2sGnhmRIabtoeDPB07EkOhNh2h8RPPuKxYm7-5asnWStzw==)
+- [northwiseproject.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0lv1cO6YnXx2MYxxn0w3ihVKCZIu7KoaPzLfUV9SsP5XOYvXB7jD2anAQodgf9LS8H9vwmrLWmM5JKZI1eNayGSSgQU7FX5m9KNzRg8IeUDzHHKb03jbfXy_09c0b3isZGgU0eXfruxfeOa8=)
+- [tikr.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH92Qxn_8f6xNtFa5WOhQFyCOE5yaEjQCH3OnH2CNSu0lcGw3iOF6cMIiZfVDgwp7xJSfeFo8juY6fi8zY0bB6b3LizKiKzUeeoJ9w1A1g6nbdKfsYIEU_gtXiG2JFQvZEjnlDBLO-x5rDIc9eotoCAS-gCSfWf9idXXYdy72YCnKh3-m4dEFqd19LC5N6FtpKnr1fzjkQNmSXFlboksCsE)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnmNlFTBsf43J5fY6BchyptqJrfUxJ1caBcSbJASZYDciLAIqgqbsbdONRVzIQGDIWMh_6U8R_z61ZnsKrgvVk1afyF7EF8dkaAw5o0AG0_Buv2WHb18QH9DvD2Yty6kHj9zTrWtiMuK0jjAFFCYN1yScwL8VUfNl4MbTz9vTUVZnhwT_c-BMeV42_Fa_zXTlzrIaVUGJVnSguskHB5-YhiRhjUZTziuWOXYjLj5JzI-Wg9Wn1_iUyJb_zDRhU0QRqsQ==)
+- [digitalcommerce360.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFecZWBFjdTIxiS0wmYGNo_laIC0pT2jLoWeQ3QDN3EMeBocfVt9PWoiZHI9rLiQLGndtH6IcHmNbmP4-zRpHZDZyd44IIJOc_snSVwerYVnNpRvGEsIMbkBhX1Z1pZaCrreIDWv3_GVu43MBigFdQvoyW0VN8mkkBkCkyL3X8gAnJFi-nmWDzNxF_3WYjkgOZ_iocvl8er0p4VyrKoAX042R-Tvid25astjumB_xc9lStJ4ElZ7S3h)
+- [gurufocus.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOdi9aGWdBrxXq74jtjthO0mZQ8yItTeuVj7KjxsabIQ6DmR5xFSY2Z8_M95aSP9EHY26NoUAmsGhrGNmE9gWRivtuvWrhc08T1rYhw0pYqzQaDN2vOiaS1afPUXni7MLPcVvAFojnt-brqTru)
+- [devexpress.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMFkxanQWQP0lEN0-gWawZ_5rgw2M7K-daVNpZLs5AjQVluoGWwFR_o7Eh5BUdadeiG5qBczJtQEQ2H-WT0FS-iju_ErlzXqw3aHZ86ojdn_CABb1nqqURhC8uZN_JPDHLNtvTUbaa_v3ieg1ctXIG7B0eK1D9TNphQuVWK2yWlYPsf9nQd_F8ujYB4TdECSqo5jaz4JLRn_bgtwDeB2OBmlwTlxsqb-kd4MMnyqyeS1_e74mqA0gER5eOtwO-k1pzt49B9phb)
+- [fool.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELjyW3M2natDCuOE7EN97jNYZJeY9_7IqreDo1pFzjKBmtnYGAbYg1bUreIp-zJZL34LyXabSKF0Ss-abpqTlZenkUYVmYO2DQvSbNN5AEKlnp2d-NLc20BpPQo7TzPbukXIG9t28kXjdXbheGVziUs0p5oQX6JN_hCD-46a5s6AFcRXC6jQaB2TYNknOxyb1_efPrLarohEk5Rk9gUjhyjDSp1beU9ZrGCL7rd0M5grw=)

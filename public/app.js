@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const resCitationsCard = document.getElementById('resCitationsCard');
   const resCitationsList = document.getElementById('resCitationsList');
 
+  // Chart variables
+  let priceChartInstance = null;
+  const chartCard = document.getElementById('chartCard');
+
   // Load API Key from localStorage
   const storedApiKey = localStorage.getItem('gemini_api_key');
   if (storedApiKey) {
@@ -392,6 +396,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update Slider Gauge
     updateGauge(entryPrice, targetPrice, stopPrice);
 
+    // Load and render price chart with moving averages
+    loadPriceChart(data.ticker);
+
     // Citations list
     if (data.citations && data.citations.length > 0) {
       resCitationsCard.classList.remove('hidden');
@@ -460,5 +467,89 @@ document.addEventListener('DOMContentLoaded', () => {
     marker.style.left = `${safePercent}%`;
     invZone.style.width = `${safePercent}%`;
     targetZone.style.width = `${100 - safePercent}%`;
+  }
+
+  // Load and render price chart with moving averages
+  async function loadPriceChart(ticker) {
+    chartCard.classList.add('hidden');
+    try {
+      const resp = await fetch(`/api/chart/${ticker}`);
+      if (!resp.ok) return;
+      const { dates, closes, ma50, ma200 } = await resp.json();
+
+      chartCard.classList.remove('hidden');
+
+      // Destruir gráfico anterior si existe
+      if (priceChartInstance) {
+        priceChartInstance.destroy();
+        priceChartInstance = null;
+      }
+
+      const ctx = document.getElementById('priceChart').getContext('2d');
+      priceChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: dates,
+          datasets: [
+            {
+              label: 'Cierre',
+              data: closes,
+              borderColor: 'rgba(255,255,255,0.7)',
+              borderWidth: 1.5,
+              pointRadius: 0,
+              tension: 0.1,
+              fill: false
+            },
+            {
+              label: 'MA50',
+              data: ma50,
+              borderColor: '#6366f1',
+              borderWidth: 2,
+              pointRadius: 0,
+              tension: 0.3,
+              fill: false
+            },
+            {
+              label: 'MA200',
+              data: ma200,
+              borderColor: '#10b981',
+              borderWidth: 2,
+              pointRadius: 0,
+              tension: 0.3,
+              fill: false
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: 'rgba(22,30,49,0.95)',
+              titleColor: '#e2e8f0',
+              bodyColor: '#94a3b8',
+              borderColor: 'rgba(255,255,255,0.1)',
+              borderWidth: 1
+            }
+          },
+          scales: {
+            x: {
+              grid: { color: 'rgba(255,255,255,0.05)' },
+              ticks: { color: '#64748b', maxTicksLimit: 8 }
+            },
+            y: {
+              grid: { color: 'rgba(255,255,255,0.05)' },
+              ticks: { color: '#64748b', callback: v => `$${v.toFixed(0)}` }
+            }
+          }
+        }
+      });
+
+      lucide.createIcons();
+    } catch (err) {
+      console.warn('[Chart] No se pudo cargar el gráfico:', err);
+    }
   }
 });

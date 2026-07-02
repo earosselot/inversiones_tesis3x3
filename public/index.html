@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="style.css">
   <!-- Lucide Icons for premium look -->
   <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Chart.js for price charts with moving averages -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
   <div class="app-container">
@@ -237,6 +239,19 @@
                   <p id="resRrDescription">El beneficio potencial de esta operación ($50.00) es 2.5 veces mayor que el riesgo asumido ($20.00).</p>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <!-- Price Chart Card -->
+          <div class="card chart-card hidden" id="chartCard">
+            <h3><i data-lucide="line-chart"></i> Cotizaciones (6 meses) + Medias Móviles</h3>
+            <div class="chart-legend">
+              <span class="legend-item legend-price">Precio de Cierre</span>
+              <span class="legend-item legend-ma50">MA50</span>
+              <span class="legend-item legend-ma200">MA200</span>
+            </div>
+            <div class="chart-container">
+              <canvas id="priceChart"></canvas>
             </div>
           </div>
 

@@ -1048,6 +1048,50 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Chart Card Styles */
+.chart-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.chart-container {
+  position: relative;
+  height: 280px;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legend-item::before {
+  content: '';
+  width: 24px;
+  height: 3px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.legend-price::before {
+  background: rgba(255,255,255,0.7);
+}
+
+.legend-ma50::before  {
+  background: #6366f1;
+}
+
+.legend-ma200::before {
+  background: #10b981;
+}
+
 @media(max-width: 768px) {
   .main-content {
     grid-template-columns: 1fr;
