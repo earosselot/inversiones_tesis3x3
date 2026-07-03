@@ -62,11 +62,37 @@ app.get('/api/tesis/:filename', (req, res) => {
 // Endpoint to get historical chart data with moving averages
 app.get('/api/chart/:ticker', async (req, res) => {
   const ticker = req.params.ticker.toUpperCase().trim();
+  const period = req.query.period || '6m'; // '1m', '6m', '1y', '5y'
+
   try {
-    // Pedir 16 meses para tener datos suficientes para MA200
-    // MA200 necesita ~200 días de trading, más 6 meses (~126 días) para mostrar = ~326 días (~16 meses)
+    // Definir cuántos meses pedir históricamente según el período a mostrar
+    // Necesitamos ~200 días de trading antes del período para que MA200 esté completada
+    let monthsToFetch, monthsToDisplay;
+
+    switch(period) {
+      case '1m':
+        monthsToFetch = 7;      // 1 mes + 6 meses buffer para MA200
+        monthsToDisplay = 1;
+        break;
+      case '6m':
+        monthsToFetch = 16;     // 6 meses + 10 meses buffer para MA200
+        monthsToDisplay = 6;
+        break;
+      case '1y':
+        monthsToFetch = 22;     // 12 meses + 10 meses buffer para MA200
+        monthsToDisplay = 12;
+        break;
+      case '5y':
+        monthsToFetch = 66;     // 60 meses + 6 meses buffer para MA200
+        monthsToDisplay = 60;
+        break;
+      default:
+        monthsToFetch = 16;
+        monthsToDisplay = 6;
+    }
+
     const startDate = new Date();
-    startDate.setMonth(startDate.getMonth() - 16);
+    startDate.setMonth(startDate.getMonth() - monthsToFetch);
 
     const chartData = await yf.chart(ticker, {
       period1: startDate,
@@ -90,11 +116,10 @@ app.get('/api/chart/:ticker', async (req, res) => {
     const ma50  = calcMA(closes, 50);
     const ma200 = calcMA(closes, 200);
 
-    // Recortar a los últimos 6 meses para el gráfico
-    // Ahora la MA200 estará completamente calculada para todo el período mostrado
-    const sixMonthsAgo = new Date();
-    sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-    const startIdx = dates.findIndex(d => new Date(d) >= sixMonthsAgo);
+    // Recortar al período solicitado
+    const displayFromDate = new Date();
+    displayFromDate.setMonth(displayFromDate.getMonth() - monthsToDisplay);
+    const startIdx = dates.findIndex(d => new Date(d) >= displayFromDate);
     const idx = startIdx === -1 ? 0 : startIdx;
 
     res.json({
@@ -130,21 +155,45 @@ app.post('/api/generate-thesis', async (req, res) => {
     let summaryProfile = {};
     let defaultKeyStatistics = {};
     
+    let nextEarningsDate = [];
+    let isEarningsEstimate = true;
+    let epsHistory = [];
+
     try {
       const yfResult = await yf.quoteSummary(cleanTicker, {
-        modules: ['summaryProfile', 'financialData', 'defaultKeyStatistics']
+        modules: ['summaryProfile', 'financialData', 'defaultKeyStatistics', 'calendarEvents', 'earningsHistory']
       });
       financialData = yfResult.financialData || {};
       summaryProfile = yfResult.summaryProfile || {};
       defaultKeyStatistics = yfResult.defaultKeyStatistics || {};
       console.log(`[Yahoo Finance] Datos obtenidos para ${cleanTicker}. Precio actual: ${financialData.currentPrice}`);
+
+      // Extract earnings data from Yahoo Finance
+      const calendarEvents = yfResult.calendarEvents || {};
+      const earningsHistoryData = yfResult.earningsHistory || {};
+
+      // Próxima fecha de earnings (es un array [fechaMin, fechaMax])
+      nextEarningsDate = calendarEvents.earnings?.earningsDate || [];
+      isEarningsEstimate = calendarEvents.earnings?.isEarningsDateEstimate ?? true;
+
+      // Historial de sorpresas EPS (últimos 4 trimestres, más reciente primero)
+      epsHistory = (earningsHistoryData.history || [])
+        .filter(h => h.epsActual !== null && h.epsEstimate !== null)
+        .slice(0, 4)
+        .map(h => ({
+          quarter: h.quarter,
+          period: h.period,
+          epsActual: h.epsActual,
+          epsEstimate: h.epsEstimate,
+          surprisePct: h.surprisePercent
+        }));
     } catch (yfError) {
       console.warn(`[Yahoo Finance Warning] No se pudieron obtener todos los datos de Yahoo Finance para ${cleanTicker}: ${yfError.message}`);
     }
 
     const currentPrice = financialData.currentPrice || null;
     const targetMeanPrice = financialData.targetMeanPrice || null;
-    
+
     // 2. Prepare the prompt for Gemini
     const genAI = new GoogleGenerativeAI(apiKey);
     const modelName = requestedModel || 'gemini-2.5-flash';
@@ -312,7 +361,11 @@ Responde ÚNICAMENTE con el objeto JSON válido.
       ...thesisData,
       ticker: cleanTicker,
       savedPath: mdFilePath,
-      filename: mdFilename
+      filename: mdFilename,
+      // Earnings data
+      nextEarningsDate: nextEarningsDate.map(d => d?.toISOString() || null),
+      isEarningsEstimate,
+      epsHistory
     };
     fs.writeFileSync(jsonFilePath, JSON.stringify(fullThesisData, null, 2), 'utf8');
 

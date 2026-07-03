@@ -242,9 +242,37 @@
             </div>
           </div>
 
+          <!-- Earnings Info Card -->
+          <div class="card earnings-card hidden" id="earningsCard">
+            <h3><i data-lucide="calendar-clock"></i> Próximos Earnings & Historial EPS</h3>
+            <div class="earnings-content">
+              <!-- Próxima fecha -->
+              <div class="next-earnings-section">
+                <div class="next-earnings-label">Próximo Reporte</div>
+                <div class="next-earnings-date" id="resNextEarningsDate">—</div>
+                <div class="next-earnings-tag" id="resEarningsTag"></div>
+              </div>
+              <!-- Historial de sorpresas -->
+              <div class="eps-history-section">
+                <div class="eps-history-label">Historial de Sorpresas EPS</div>
+                <div class="eps-history-grid" id="resEpsHistory">
+                  <!-- JS popula aquí -->
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- Price Chart Card -->
           <div class="card chart-card hidden" id="chartCard">
-            <h3><i data-lucide="line-chart"></i> Cotizaciones (6 meses) + Medias Móviles</h3>
+            <div class="chart-header">
+              <h3><i data-lucide="line-chart"></i> Cotizaciones + Medias Móviles</h3>
+              <div class="period-buttons">
+                <button class="period-btn" data-period="1m">1M</button>
+                <button class="period-btn active" data-period="6m">6M</button>
+                <button class="period-btn" data-period="1y">1A</button>
+                <button class="period-btn" data-period="5y">5A</button>
+              </div>
+            </div>
             <div class="chart-legend">
               <span class="legend-item legend-price">Precio de Cierre</span>
               <span class="legend-item legend-ma50">MA50</span>

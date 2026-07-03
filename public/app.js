@@ -49,7 +49,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Chart variables
   let priceChartInstance = null;
+  let currentTicker = null;
+  let currentChartPeriod = '6m';
   const chartCard = document.getElementById('chartCard');
+
+  // Earnings card variables
+  const earningsCard = document.getElementById('earningsCard');
+  const resNextEarningsDate = document.getElementById('resNextEarningsDate');
+  const resEarningsTag = document.getElementById('resEarningsTag');
+  const resEpsHistory = document.getElementById('resEpsHistory');
 
   // Load API Key from localStorage
   const storedApiKey = localStorage.getItem('gemini_api_key');
@@ -396,6 +404,45 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update Slider Gauge
     updateGauge(entryPrice, targetPrice, stopPrice);
 
+    // Renderizar earnings info
+    if (data.nextEarningsDate?.length > 0 || data.epsHistory?.length > 0) {
+      earningsCard.classList.remove('hidden');
+
+      // Próxima fecha de earnings
+      if (data.nextEarningsDate?.length > 0) {
+        const d = new Date(data.nextEarningsDate[0]);
+        resNextEarningsDate.textContent = d.toLocaleDateString('es-ES', {
+          day: 'numeric', month: 'short', year: 'numeric'
+        });
+        resEarningsTag.textContent = data.isEarningsEstimate ? 'Fecha estimada' : 'Fecha confirmada';
+        resEarningsTag.style.background = data.isEarningsEstimate
+          ? 'rgba(245,158,11,0.15)' : 'rgba(16,185,129,0.15)';
+        resEarningsTag.style.color = data.isEarningsEstimate ? '#f59e0b' : '#10b981';
+        resEarningsTag.style.borderColor = data.isEarningsEstimate
+          ? 'rgba(245,158,11,0.3)' : 'rgba(16,185,129,0.3)';
+      }
+
+      // Historial de sorpresas EPS
+      if (data.epsHistory?.length > 0) {
+        resEpsHistory.innerHTML = '';
+        data.epsHistory.forEach(h => {
+          const beat = h.surprisePct >= 0;
+          const pct = h.surprisePct != null ? `${beat ? '+' : ''}${(h.surprisePct * 100).toFixed(1)}%` : '—';
+          const qDate = h.quarter ? new Date(h.quarter).toLocaleDateString('es-ES', { month: 'short', year: '2-digit' }) : h.period;
+          const item = document.createElement('div');
+          item.className = `eps-item ${beat ? 'beat' : 'miss'}`;
+          item.innerHTML = `
+            <span class="eps-quarter">${qDate}</span>
+            <span class="eps-surprise">${pct}</span>
+            <span class="eps-values">Real: $${h.epsActual?.toFixed(2) ?? '—'}<br>Est: $${h.epsEstimate?.toFixed(2) ?? '—'}</span>
+          `;
+          resEpsHistory.appendChild(item);
+        });
+      }
+    } else {
+      earningsCard.classList.add('hidden');
+    }
+
     // Load and render price chart with moving averages
     loadPriceChart(data.ticker);
 
@@ -470,10 +517,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Load and render price chart with moving averages
-  async function loadPriceChart(ticker) {
+  async function loadPriceChart(ticker, period = '6m') {
+    // Save the current ticker for period button changes
+    currentTicker = ticker;
+    currentChartPeriod = period;
+
     chartCard.classList.add('hidden');
     try {
-      const resp = await fetch(`/api/chart/${ticker}`);
+      const resp = await fetch(`/api/chart/${ticker}?period=${period}`);
       if (!resp.ok) return;
       const { dates, closes, ma50, ma200 } = await resp.json();
 
@@ -548,8 +599,36 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       lucide.createIcons();
+
+      // Add event listeners to period buttons (only once)
+      setupPeriodButtons();
     } catch (err) {
       console.warn('[Chart] No se pudo cargar el gráfico:', err);
     }
+  }
+
+  // Setup period button event listeners
+  function setupPeriodButtons() {
+    const periodButtons = document.querySelectorAll('.period-btn');
+    periodButtons.forEach(btn => {
+      // Remove existing listeners by cloning
+      const newBtn = btn.cloneNode(true);
+      btn.parentNode.replaceChild(newBtn, btn);
+    });
+
+    // Re-query after replacement
+    document.querySelectorAll('.period-btn').forEach(btn => {
+      btn.addEventListener('click', async (e) => {
+        e.preventDefault();
+        const newPeriod = btn.getAttribute('data-period');
+
+        // Update active button
+        document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // Reload chart with new period
+        await loadPriceChart(currentTicker, newPeriod);
+      });
+    });
   }
 });

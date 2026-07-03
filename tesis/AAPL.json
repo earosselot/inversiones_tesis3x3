@@ -1,122 +1,152 @@
 {
   "companyName": "Apple Inc.",
-  "centralThesis": "Comprar AAPL ahora por su sólido ecosistema de servicios de alto margen, la integración estratégica de IA y el continuo lanzamiento de productos, que impulsarán el crecimiento hacia los precios objetivo de los analistas.",
+  "centralThesis": "Compramos Apple por su ecosistema robusto y márgenes elevados, buscando crecimiento impulsado por servicios e innovación tecnológica continua.",
   "reasonsInFavor": [
     {
-      "title": "Crecimiento de Servicios y Márgenes Elevados",
-      "description": "El segmento de servicios de Apple es un motor de crecimiento crucial, alcanzando un año récord en 2025 con ingresos superiores a los 100 mil millones de dólares y un margen bruto del 76.5% en el primer trimestre del año fiscal 2026, superando significativamente el margen de productos (40.7%). Este segmento es menos intensivo en capital y más predecible, contribuyendo a la expansión de los márgenes generales de la empresa."
+      "title": "Fuerte Margen Operativo y Rentabilidad",
+      "description": "El margen operativo del 32.27% de Apple demuestra una gestión eficiente y una sólida capacidad para generar ganancias, lo que respalda un flujo de caja robusto y permite inversiones en I+D."
     },
     {
-      "title": "Ecosistema Robusto y Lealtad de Marca",
-      "description": "El ecosistema integrado de Apple, que incluye hardware, software y servicios, genera una fuerte lealtad de marca y altos costos de cambio para los clientes. La base de dispositivos activos instalados superó los 2.5 mil millones en el primer trimestre del año fiscal 2026, creando un efecto de 'volante' que impulsa el crecimiento continuo de los servicios."
+      "title": "Ecosistema de Servicios en Crecimiento",
+      "description": "La expansión y el éxito del segmento de servicios (App Store, Apple Music, AppleCare, etc.) generan ingresos recurrentes y de alto margen, reduciendo la dependencia de las ventas de hardware y fortaleciendo la lealtad del cliente. Globalmente, la App Store generó aproximadamente 91.3 mil millones de dólares en ingresos en 2024."
     },
     {
-      "title": "Innovación Estratégica en IA y Lanzamientos de Productos",
-      "description": "Apple ha realizado un giro estratégico en IA en 2024-2025, adoptando una estrategia comercial basada en asociaciones (incluyendo OpenAI y Google Gemini) para integrar la IA en todo su ecosistema, manifestado a través de 'Apple Intelligence'. La empresa también mantiene una constante cartera de lanzamientos de productos en categorías como iPhones (con la línea iPhone 17 en 2025), Macs y wearables, lo que fomenta el compromiso y las ventas."
+      "title": "Innovación Continua y Nuevas Categorías",
+      "description": "La inversión de Apple en nuevas tecnologías como Apple Vision Pro y la constante actualización de su portfolio aseguran la relevancia en el mercado y abren nuevas vías de crecimiento, como el potencial del iPhone plegable y las mejoras en IA para sus productos futuros."
     }
   ],
   "reasonsAgainst": [
     {
-      "title": "Presiones Regulatorias y Antimonopolio",
-      "description": "Apple se enfrenta a un escrutinio creciente y a demandas antimonopolio en EE. UU. y la UE relacionadas con las prácticas de su App Store y el control de su ecosistema, lo que podría afectar sus ingresos por servicios y su modelo de negocio. También ha experimentado reveses legales significativos en 2025 en disputas de propiedad intelectual."
+      "title": "Dependencia del iPhone y Presión en Márgenes por Costos",
+      "description": "El iPhone sigue siendo el principal motor de ingresos de Apple (entre 50% y 89% directa o indirectamente), pero enfrenta un crecimiento estancado, una menor cuota de mercado en China y el aumento de los costos de los chips de memoria. Esto podría obligar a subir los precios, arriesgando la demanda, o a comprimir los márgenes si Apple absorbe los costos."
     },
     {
-      "title": "Aumento de la Competencia en Smartphones y Desafíos en China",
-      "description": "La cuota de mercado global de smartphones de Apple disminuyó en 2024, con una competencia intensificada de fabricantes chinos como Xiaomi y Huawei. Existen preocupaciones sobre el estancamiento del crecimiento del iPhone y la continua debilidad en el mercado chino, lo que podría afectar las perspectivas de crecimiento futuras."
+      "title": "Creciente Escrutinio Regulatorio y Antimonopolio",
+      "description": "Apple enfrenta una presión regulatoria creciente a nivel global, incluyendo la Digital Markets Act de la UE y demandas antimonopolio en EE. UU. y Brasil. Estas acciones buscan reducir su control sobre el ecosistema del App Store y las comisiones, lo que podría impactar negativamente sus ingresos de servicios de alto margen."
     }
   ],
   "killSwitch": {
-    "metricComponent": "El margen operativo consolidado de la empresa cae por debajo del 25%.",
-    "contextComponent": "Si Apple se ve obligada por regulaciones antimonopolio clave a desmantelar componentes críticos de su ecosistema de servicios, como la App Store, afectando materialmente su capacidad de monetización."
+    "metricComponent": "Si el margen operativo cae por debajo del 28% de forma sostenida en dos trimestres consecutivos.",
+    "contextComponent": "Si una sentencia antimonopolio importante en EE. UU. obliga a una reestructuración fundamental del modelo de negocio del App Store o la división de servicios de Apple."
   },
-  "suggestedTargetPrice": 315.09,
-  "suggestedInvalidationPrice": 303.42,
+  "suggestedTargetPrice": 325,
+  "suggestedInvalidationPrice": 300.45,
   "citations": [
     {
-      "title": "counterpointresearch.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOKj8uxuMD5VRMrz_gBMHkS1AHkEeX8thwLxuD5oNMyZ4m1yB1DLVeHEalzml37lFDi2HS1htamUlyK0UgrHZI6JNuQWXFff_xYdqWKAf56UJzZbeVz3DP5bRYc7_rjSRWbkK95C0R6Aq-ru4vJS39Tn-A_vjFz7wpdzdzXIbp4iRo_5RjQdnGB4T9JP1J_ORIQhqGqcjMfdnnOSp23aoj-3CXZb13UgR2tyCWA_hkZpjjQQ3MhGGJkfYtdnzLP6J6onCZ8t_B"
+      "title": "dig.watch",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE73q8ucGuygGdrh9mgZnNAq8sDNrYxsBIEeY_0cv64W6WSPf_Aoa48mRiobAn12iwivKjUUa_Hl_bEtWRFpq-R6AHwWRhzWGuteV6VCMywNgby5uDo3ysE_tLjsfr7QxYAp4qogoZH1jMNNHLd9N7yxOT5YWeZDCpIChGv_WM9blhC_fabfA=="
     },
     {
-      "title": "applemagazine.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-uvJfTXdBKfNR4cQ5sKXOedzPfxZGhC28tmKjYnPkhGU5UEYzMUTyzwEUietDlBldoxsHBHqO64AxkE1Sfxjyue533j9Hw8oyL7mF1EQDP3STwFTej_TVVEQ5M-4FP3EFNch7vNFKrARrUKPe13m8"
+      "title": "forbes.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJMUFf0bYC755c2Lkzza18S7kXX1O_umd3N2wRVUH4InuxMeIqobG72Yj6N5C-h4v6f61BRHHjp8VoJ9faILP3ANRE3cHOE5XskOQj6yZmF82ReCfEJDJ2oHHZxENazU8HIea2XmUSkAL3PiLiZ7d--LLeq4lPIYguqwtoAaSncK0DEkP-AYtYSEIzoCUgkWFRLSCUk8TK"
     },
     {
-      "title": "markhub24.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVsgB-mPB5ePQ_oEofOAiNRajXK_m6imokuoH6_TZ_ESZ5SXe1asxyIFmEKxqmlKJ7s9nRpNGhO5QYKEKaa_jJeLbWB3H6Mw_zMT8Yj6O_3pdcCAej-0vuf_c9-gx1RY62WKKTvdZU3vVGX0dEJK2v6FgkQT2_6OWB9N-gulhgEPgi-ELnAUUi64m1qxkp0dfMhgM="
+      "title": "tradingview.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzfc1EfOszkQ3wT70YB3XJCuyme580QBRCU-ieW5mP2A6fEwa2CjKHPVT73Yjx6gdrKNUGjZVWng4FnYhLLUuJR0llB2Ad385yMhoV8BOhBzyDOtroh1EGIOQfzE9AoViJIbbNR6kQcY54upvuE2zTas1F4kj4w06H8feSun_UGm9MHj2VBR1dg49GPyi2iQGYoLEzm_tB6pczcE5YGfbuFjKveqDKcMnpkkeAfKosdzPsopGYm-Itdw=="
     },
     {
-      "title": "alphastreet.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSqu6Zc7ccRqizz09xCp87HNyxN6letn5VBtVVl4WttsCx4Tj-_HW4cGdUnvLd8YY-82xxEeO0IV33kgA6HzonL763U_oOHPXczdQDpjuhhS99LMVYd64zBH5CMYdTaQMVaKh2Do0kx2myFv8AyfoqKqMebm24XvtRsmd3GTRKdd65vdvsaZZ3EusPP44CM0AJBZ09T04iVhHfSjMe8sZdiCS8lNOlCForLzeCYQ90"
-    },
-    {
-      "title": "substack.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXKz2ok2DHeP5argjtLpwsGzwd05zsSMJsdTLCMiayl8UK3erkX2qvRfT7jqNDUFpXpBfe9Qw_qH3Q0XB5qBy1q73gQwv4FTXQ_6S6NihaFRvOknpSC1LIiS9-0TvxPlUAX_zpj2QTc4t26KkyQj3FXSED6TzUUH03srwgfZjowzM="
-    },
-    {
-      "title": "tradegenie.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvFEs_tEOU-JSiQjcFjqVitOknrelAIlH1YFztD35X5g5ITtG5amVROtT9BHqMUcIYpBwoOO9qbVva4GJ3drnQLS7Eutqxu_EdqkudaBRYMZCap0BFegeJRvWDfhyVSQtaqN2GqJ32kNfReHk2SDm2"
-    },
-    {
-      "title": "markhub24.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-K0YFtZJPrpYXjBQH4wviAJ51m5SrIPXXoc-6mMDf-q7IHufg5B11uGNYwXfTeBONJnWTT0ej4ONOQxmWeDdqcXZnjxS6nzHM-da5zGpMncyoKrpyp73K2NRa5iEvKrxEUMMjudlFFIWwIGLbtJ2fDTVNy1AznrKWHY9gZZPUtdsgcS-oknGstKsW3QFo6KvrxKzHMmYV"
-    },
-    {
-      "title": "medium.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcJr2bhxxUwwqf9KJTxvh6u2rVUY669amCkYjR9p-fFQLK-T9GX63hFMjpiFcmNVMi90a8MFLzyQhYpXBFhzJ37yQe_aU8wrVH_tS_0tcWiy0u1peNwPDwAlQa90hT1uZrLw12md7K3dp9Qg1yk8_F3s5Fd3UHXbX6d2y1lXec2W-TqzPF3vFelQKg5rYiuT803oXDwrPZBW1P_UVoM3oHqR0BBk6yOsVXwQsEiOzwSrdu"
-    },
-    {
-      "title": "enkiai.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDsb9CeokWCx67dMDcyWQE7ms240RVejfOCzZPWpAeeABHYQlTxcwVLYN1_wTKWmVYKm6vpbVxNiwwtdJpz1p2GDm0wKHf1UQioSEERoGd9O_frIAoebP-2K8QpRgwbM9XwHAaz3ynNmHZELbh4Wi6CVfJ8GDq5ByTUGQTM4UR6qF3vl5wfaui2olkD25GZQ33fP7c9_QuBVlLumahTg=="
-    },
-    {
-      "title": "aiexpert.network",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDpzPPKNaLtBkvXwVR-iHaQfI1NHr8yVXHrKdYs6Gw0D8pse3WqEmxVnACJiUYqYxiA1yDFRWljtYp-Fi666V5Wn1RKGXp3CcIyu-HHtBklFWYVQ72J6nvQgH-jcdyJmE="
-    },
-    {
-      "title": "businesschief.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaBKFcv3t_2t3M7HD1mWMDzPQ4k-EvDxC3y9B0Wm5pfKjTwK435MDZl7vgJ0yHainyvwpL_BzcauJrudOw-b59AzJHc-d129WyBMBLL6cwooBrVCB7GHgZa92EICzOqeijrapZzsjmcjJ4Vwb1dq0QUfE2ZsPHeKorvRWbZWGmGEznlWqCwzSTLVPmTxDfnr-j"
-    },
-    {
-      "title": "rcsprofessional.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHajYwT5joG1AP6PNPn0vRERnna-wfCGN01deljOTjeLFgYT0KCjRUyUxh67ArA3A9wrcRi8whGRky_IGrs4X3z81gCEpLyzKlMZS9gZbvsEAIQHFwmdNf_syy-ZyExZjc1FQ_mSeuqdb1fIdEKySSG8cb-YFJxhddGzxjBmr6WWsYfExtQAZaHGl0="
-    },
-    {
-      "title": "gummicube.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJg0POV7FbKv-2Mg01MChqknSElUnf-FwRlD7fGnaAr3bycGl_c2jYe4ynkItZH2pQOL-RwwJMzWgIhcUz92ItsuUV98nWuGN8Shug9zeVYAbIdznNxyJo4iqT-GjXYzKdBnR0CUrWSR86j0dDFMg_NX62UJSG1E9lA_wUGHbgNXyTTOsXbRBbXLlKMDl5cKgMvR-WK49ZWWQ="
-    },
-    {
-      "title": "thegadgetflow.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFj8eW6jcCoXWIm9FLK3mx8GgNqo2G1DhUNbRjXcI1mb5alvxGV4xFsdaBkQoZOKhq71Y965QV9EDcU0_j-MAIKkCRiSiZRDCYxt43uSEPqswt24JWYsubg0kHowVhLIfnS6ayhK-BqWebRrS2D9lwbWhl8Q=="
-    },
-    {
-      "title": "macrumors.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCoCzjcq6BLpMuqX_Sd8DUMRkZPrrK-sC3Qjb638PPsZJ42VSrD9oCLZVuF3-LOMKF1K1BhHOz34leahHk1EHXS0EyjXnRKzLJKsJiZJD3oTA0DNkc-hx1J5v5KGckSIeHUh7as4cnwgm-TngThTwlq_q"
-    },
-    {
-      "title": "rankingdigitalrights.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwsWpaF3hMHXEcBM5dQhk6zQmYNlSeG05ehPhJjJjPkLUJRJO-QLdzUpQ_2Y7Ie9fyfJBKIb8qJSiygFYpeiO5UNlFXgBPCpEhgt5qwhcG1q_nwbtz4HmbN9203ozwO16wlHqa96J5kpYYn6IAvLTYmg=="
-    },
-    {
-      "title": "foresightvaluation.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXO3TG8Mm4d201rK8coD9wRji2OiEZQvVA-nh9aTbgUN81HO1C1_e6w9ukAFVl9_zfBLaBW5goEavkexCsliT2r2AKvhHyjj_uUhJwqCIGt828GO7syuGypEFHgGnj29sacvZSAQI5TCIv1OPgeiU0Fg=="
-    },
-    {
-      "title": "macrumors.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEab6Qi5Df-arGsi6ioc-jZiTRfWUUCjvYU2gq4lEvcDFk_TQ_7LlxPLvC2zlS1BvFWpDMq2MUWaHtCjYPvBl9Vp61vMV5G6E4UUoFiwAc-QscJoIGe24fGbAYmp5pBCkAyyOF4xL6-QHpXKBti4s7A21h4qr4pQtx67JN3hyPr"
-    },
-    {
-      "title": "businesstimes.com.sg",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb2QRszYZTpwqXe3AIoSY5kCi-3pnlRB9BdhTi2vZQ9n-S30Y1_CGwuaX3emdkMdxhYj3xOgy0gbg7qAl1IbjjXmS0KtY21ovxdGeP3PlssAcK4Nb-l2P4VkC4n8obTNAb8rYFllEHE2a44yT8Ee6s9k7EOULqA48rdbF5j8L2oUtvyyoXF8urzQNDLEhPFTYc3mbjGAXFIq3xRQsbASkdkBoUWm6OD98DF4BjKDtNfQE2jlvxl_BBhQ=="
+      "title": "fool.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHahNMbZK6zOWnInrq1gFQfCdJhkWpDpliNRbQvAToCpDxKLbiXM60y1kgq98aJl5LVDjWwTuegQ0sgY_JUF5UDiIFqi3r7CpGHGy6QpmIepM4Y4_enGCSgZFjnvHArn0-9RpJJL8UPEl8AAlCrYfM9V43rplvAUJwGBAwp5iQzhIVGPbNmNqeIaGy6f7VeD-a9VpgcJed1pg=="
     },
     {
       "title": "stocktwits.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqJlhmVe41lUY-SLDu7FLng6vXTNy71STk9nj2dwnfkGkzv1nUPvju5tZUHFXp82LMZvIqrgrje4uzGZF4q_YbHDTKigSc6FW4jQZCXz76veIWuegxt9jjSrKw5rq70TDw3tTXPubATlGzp6wb3KI3TZp3BOes_iPvuvWZSQaXcZsJ5GVRXYkvcdGdlEHgf5BfJqipJb9r41JbiC3TVgEbVZSfF3bZVdu1_iThojTTI4PBGF2bt7mJYaFwqg=="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBbRo0743ZC09RVyDW0vTY4nLMhmIkFBAeOTC-xiIaGnetbX2Po0uRIEZneoqet8oRB36EXtY1UHgbClGZMtKvnw5Q4360Avs19LQs-qcmA9WEfo3lpz2l6Jt1nvZOg1C_LSB9DcCkGRuaUk2xNyr6OXOmKMQR_HI9Q2VmO6bHE3Myi731mCmIA5QNyk992Km2sZyTahVz7nwIm903GVQ4MlXbWtUgrpBXtlxtgvvNenHtwmXaxZd9ibyzCw=="
+    },
+    {
+      "title": "simplywall.st",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4mtwVmy1ZROhpSIOJa9ZoxhTo3gZWwiSscQGtnSy1G4k7UKf7mkCxzeiyh4Wzl46ekfDrpRqJ1TUrqAnWkaCTnhjZHeT4cJhivRztNtjg9h9dNPEkcp0lPBk-hfW5mTdPzXFQs7r3bV3VG0TS2PmHycBru30UiMzhcp8Rj8b8a5DjF4xUMrBuS-OPaPZWgpuI3shx1MKgM63U_f6t0AlPttbf2vRPG7K1nOLJ6rSdO-EGmA=="
+    },
+    {
+      "title": "digitimes.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5YonjGHj3DMFS7PGm8COerxYen0e6jeuU_9YofEpoKzijg7WgpV7k9ywBk6TyoE2GbyanjnybtbXjR-H83o2QqAKePC0hV_m_hKQU6osHFMy006dEijWWAAChH-txFQ77H9g8OF0Nf_82PPoyxYOF9-sPtCJ0BDYr7bBI9tYfRn_EBHPV5OhrFJqVhAZFVi0="
+    },
+    {
+      "title": "seekingalpha.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyDHXQWI56-13JxNWPjvLFKNBkFDpG_3GMPQ9qykrrFZLqpTQABURBBG4oXC66CmgT5hNGyG3-_2RzWh_Pt2s3ZeEFvaOuEQqSc8KdG94AYywolprzpT3VtZJYAtNIVPEiYOqnRQDjiyvfnclFVGLi5TTZ16TkfXBYMZNi6TlwYAxLWNFpt8wff-F_zcFtCgMixxh99omMk1DQzqs_k-k="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2YRB3o0TTHrQTAQfPUDqUPCMrXRHf7KHmNC9dwYjkAa0oLgc2ToszfaFO0lSf21sEPoX4osF_y6HexwrWhZA26NnEyjuffAUNChcO8hIC3I6inHhohnSMONwjpF1RFSBN5D4N4-5XnFEZULiQ1a6a5RpjcvXWxNkypnxc-NMpqYeJ7QIiMc1pxL0mQ_SnVBcOswhE9LSx6W-Ye1Rqj5k5DFC6kiezabY1CEY_hzRCMVHmxtXH-J0hypzOyGTy4soiJXp4IAZADoKT"
+    },
+    {
+      "title": "pymnts.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpB8NI3EWEmdcxy68Hqg_1T6bJ9lH98H1XrDOWss7njFiwX-zqCZ2mb5iiaT11WKWe-Z45j5iTHzNEVBGJ0ekvYwES0br-omjqeNCzXZ53qBUFeVxKzLlzCzW8reKsqucdSgDo2XSNF11n3fnApwp8KOrZuuVmGy0XFXaKdlAhv6jk-zGRfC38sqMwYWQ="
+    },
+    {
+      "title": "reddit.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoqGHljRvFKiktQZQ043kkOS4NTcKvfSB5B4QVsWIb6cQXtXMCvcVHBXwA4gpbAwALcUwRMKMBz6RIwXzRfYGqQ1JRDiEEwONEhnUF1QBQuWDJXI3o_nEOZbUmbbN-9xIL_CscrguaBw0bBS_OFaTJINlzvfDq_Uzf5jod6WO4cA2F2gT4tpu6qfL-EIcke-xbHH9R6uxKXy0tNpe0Vn1nMgHjJQ=="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDsLZHFbSllt6geAZVSCeJXgw01H0t2_UDgePMC0ZvW3MIDGcOIZ6f4AzvM_50_bM7dT2x-vTfEFtFoZ23iO4Uc8nNoqeaOWtNdjWGRZRqP0ZHwWkocj_GWfBdpRNUvMCmDRGr3pM="
+    },
+    {
+      "title": "thestreet.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECz2CVKNpSrI_-a-AJXVXudnev4vJEbKFzjI2t2xM1cp5ndUlSjTk_9ZP8BsCUuISTy1PktNkShKUNYZJit9s3FULYSJ_E8nieAVS9u4LVarC0Z2XIX5Pqvzod2IrDWP9LxPN0XSvnZFMNgGNrY7tuDhvGTCA-V9Cmg58YF62pbZSZjWjGFf_ttZe_so_XNjM31b8bR3zvd6y8Qh0nJw=="
+    },
+    {
+      "title": "indmoney.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzTZXpvKY6uGOO9GOs7B1GRN09DXEej_UQ3B8Ts3SLrXIET0AshtrEJ8C6_zX5qHWxBkcCOK3h5S7AeBaXqSV1by-AkZIct4YP4v1-_fVPhh9QJZX5ZyQxzWL9iclOcz6NTptqmNuTw4boVEG7rzQxVU_LCmsAFVXGOYXONF6K2A4FB8ZTxU9UTIW9lk9ERgSm9h5MK3STTJc3"
+    },
+    {
+      "title": "patentpc.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlIWl62T1nENDrr4MvVsqH_EVgbfX0IvRSAQWgFy3p39G94InO-ttQHgYFQoWrdCebnIlXaZZVehJufkTqPVmiU3CdmQq6oOnDC4UeHl8QF6PkEgmfL4rMb-pUs18M6r1F7Iaw1ordrlpYFLe-AadhjYiH6TIJAGxBf4WGTwZzn4GyPN-RowYLyVyMz1jWVYnRPg=="
+    },
+    {
+      "title": "aspirenavigators.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGOmXjBGohj3gwE5kSMVfws3_KwY4kbectdFlaCrkjEUBIoBGOQsX4HVEa0A43-NiwTFwVGasn_n3UlslfOXPz2-XwkzaTVJKa1AqGm7RWE6CDMH14kN7-BjIzCKv06NaQ2KE7TpEW1WGhn-careyFT5JDwbwasIVNCXgad0_F8k5w9Z7P_t2zWps8aONU"
+    },
+    {
+      "title": "techpolicy.press",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh6zOfIWzIJ9kTcmWSrylDQ07Aj_gw4b3XJ3I8nobNOLL-4RbFzsRjam1m5KHB7JDGDY2N0FSi2GpdBBRnIG64O-_OCfGdamupi3mWLXFF7V6hWV0u7sT8yBVm3XsV58tpnDQeqdDXk5RlOephMkzzZfJtc1tLUxsfImoSbzivfITd9ZFDbw-nVLGtYTqx9Yy-tniejOQlLY7zGl_tJPEspU7DwNtVJA=="
+    },
+    {
+      "title": "trefis.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu-T4Y7J5qYi6rdTxBET4TpAMsbvQkK0o8aQZ2ysYj3fZhXiKzOtjA11cVqPHX4SjbCCrN2MjSwYwXLLWo2Y8m6HMF5VDDHKwv6agZWlfWyfkrEKkat6fG8xHxtA6fyJnDYNPnya_3YYD9NPdAuXGkyACL5C4_1SAEklJzOKbTmaExwsWQ6tMvb99GSYaFyxZpol_78RNGWIBXyQqO5kKREel83fZ-_nWj"
+    },
+    {
+      "title": "alphaspread.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOzRVjbfIkIizmC9DLPK80FMwUY4S77mwgSSxqCXoomN5RJ4s3GtqV2_g5wyBd67_QodidsYsrpVmMdyw-b68gZEQ0XiLR5jri1e4iq6JD5a8RWmNS2UJljiPyd9OZPjVnq_sRv2_cuervVFp4OhuSfjgB5yx5qWAKUY-Zg8TnUH2l8Oc1V1hMYYVxiAVRKB_VkJo_XdrAednIDB3aa6zBmKvYCf66pobjN_A-pVjSwHkY-hUKw2WIXa16AweqglasUx78NPFub4zle6TvQQ9I6D33XHlV"
     }
   ],
-  "currentPrice": 307.31,
-  "riskRewardRatio": 2,
+  "currentPrice": 308.63,
+  "riskRewardRatio": 2.0012224938875294,
   "rrVerdict": "APROBADO (R:R ≥ 1:2)",
   "ticker": "AAPL",
   "savedPath": "/Users/eduardo.rosselot/personal-develop/inversiones_tesis3x3/tesis/AAPL.md",
-  "filename": "AAPL.md"
+  "filename": "AAPL.md",
+  "nextEarningsDate": [
+    "2026-07-30T20:00:00.000Z"
+  ],
+  "isEarningsEstimate": true,
+  "epsHistory": [
+    {
+      "quarter": "2025-06-30T00:00:00.000Z",
+      "period": "-4q",
+      "epsActual": 1.57,
+      "epsEstimate": 1.42572,
+      "surprisePct": 0.1012
+    },
+    {
+      "quarter": "2025-09-30T00:00:00.000Z",
+      "period": "-3q",
+      "epsActual": 1.85,
+      "epsEstimate": 1.76993,
+      "surprisePct": 0.0452
+    },
+    {
+      "quarter": "2025-12-31T00:00:00.000Z",
+      "period": "-2q",
+      "epsActual": 2.84,
+      "epsEstimate": 2.6708,
+      "surprisePct": 0.0634
+    },
+    {
+      "quarter": "2026-03-31T00:00:00.000Z",
+      "period": "-1q",
+      "epsActual": 2.01,
+      "epsEstimate": 1.94275,
+      "surprisePct": 0.0346
+    }
+  ]
 }
