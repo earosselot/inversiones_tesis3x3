@@ -26,7 +26,8 @@
         <div class="input-wrapper">
           <i data-lucide="key" class="input-icon"></i>
           <input type="password" id="apiKey" placeholder="AIzaSy..." autocomplete="off">
-          <button id="toggleApiKey" title="Mostrar/Ocultar"><i data-lucide="eye"></i></button>
+          <button id="toggleApiKey" title="Mostrar/Ocultar" type="button"><i data-lucide="eye"></i></button>
+          <button id="helpApiKey" title="¿Cómo obtener API Key?" type="button"><i data-lucide="help-circle"></i></button>
         </div>
       </div>
     </header>
@@ -293,6 +294,69 @@
         </div>
       </section>
     </main>
+  </div>
+
+  <!-- Modal de Ayuda para API Key -->
+  <div id="apiKeyModal" class="modal hidden">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Cómo Obtener tu Gemini API Key</h2>
+        <button class="modal-close" id="closeApiKeyModal" type="button"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        <ol class="steps-list">
+          <li>
+            <span class="step-number">1</span>
+            <div class="step-content">
+              <p class="step-title">Accede a Google AI Studio</p>
+              <p class="step-desc">Ve a <a href="https://aistudio.google.com/apikey" target="_blank" class="modal-link">aistudio.google.com/apikey</a></p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">2</span>
+            <div class="step-content">
+              <p class="step-title">Inicia sesión con tu cuenta de Google</p>
+              <p class="step-desc">Si no tienes una, deberás crear una primero. Es gratis.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">3</span>
+            <div class="step-content">
+              <p class="step-title">Haz clic en "Create API Key"</p>
+              <p class="step-desc">Se abrirá un diálogo para crear una nueva clave.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">4</span>
+            <div class="step-content">
+              <p class="step-title">Selecciona o crea un proyecto</p>
+              <p class="step-desc">Elige un proyecto existente o crea uno nuevo. Recomendamos crear uno llamado "Inversiones 3x3".</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">5</span>
+            <div class="step-content">
+              <p class="step-title">Copia tu API Key</p>
+              <p class="step-desc">Google generará una clave única. Haz clic en el icono de copiar para copiarla al portapapeles.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">6</span>
+            <div class="step-content">
+              <p class="step-title">Pégala en el campo de arriba</p>
+              <p class="step-desc">Vuelve a esta aplicación y pega tu API Key en el campo "Gemini API Key".</p>
+            </div>
+          </li>
+        </ol>
+        <div class="modal-note">
+          <i data-lucide="alert-circle"></i>
+          <div>
+            <p><strong>Nota importante:</strong> Mantén tu API Key confidencial. No la compartas con otros ni la publiques en redes sociales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="app.js"></script>

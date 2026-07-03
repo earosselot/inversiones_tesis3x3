@@ -82,6 +82,33 @@ document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
   });
 
+  // API Key Help Modal
+  const helpApiKeyBtn = document.getElementById('helpApiKey');
+  const apiKeyModal = document.getElementById('apiKeyModal');
+  const modalOverlay = document.getElementById('modalOverlay');
+  const closeApiKeyModalBtn = document.getElementById('closeApiKeyModal');
+
+  function openApiKeyModal() {
+    apiKeyModal.classList.remove('hidden');
+    lucide.createIcons();
+  }
+
+  function closeApiKeyModal() {
+    apiKeyModal.classList.add('hidden');
+  }
+
+  helpApiKeyBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    openApiKeyModal();
+  });
+
+  closeApiKeyModalBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    closeApiKeyModal();
+  });
+
+  modalOverlay.addEventListener('click', closeApiKeyModal);
+
   // Load History
   loadHistory();
 
